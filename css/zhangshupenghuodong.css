@@ -1,0 +1,359 @@
+body {
+    font-family: "ProximaNovaRegular",sans-serif;
+    color: #111;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+}
+a,input{
+    cursor: pointer;
+}
+.box_top{
+    width: 100%;
+    height: 50px;
+    line-height: 2.429rem!important;
+    background-color: black;
+}
+.box_centent{
+    height: 36px;
+    width: 100%;
+    position: relative;
+    padding: 20px 0 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.box_centent:hover .centent_left .span_fu{
+    border:1px solid  #333;
+}
+.box_centent .centent_left{
+    width:200px;
+    height: 36;
+    /* border:1px solid red; */
+    position: absolute;
+    left: 50px;;
+}
+.box_centent .centent_left .span_fu{
+    width:200px;
+    height: 36;
+    border:1px solid  #f8f8f8;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+.box_centent .centent_left .bianji{
+    position: relative;
+    left: 230px;
+    top: -27px;
+    color: #777;
+    font-size: .857rem;
+    font-weight: normal;
+    display: none;
+}
+.box_centent:hover .centent_left .bianji{
+    display: block;
+}
+.box_centent .centent_left .span_fu span::after{
+    background: transparent url(//img.zohostatic.com.cn/crm/images/svgicons_43e8a_.svg) no-repeat -36px -939px;
+    width: 9px;
+    height: 5px;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.box_centent .centent_right{
+    width: 550px;
+    height: 36px;
+    /* border:1px solid red; */
+    position: absolute;
+    right: 0;
+}
+.centent_right .jingling{
+    width:100px;
+    height: 36px;;
+    /* border:1px solid red; */
+}
+.centent_right .jingling a .svgIconsImg1{
+    display: inline-block;
+    vertical-align: top;
+    width: 14px;
+    height: 14px;
+    background: transparent url(../images/lianji1.png) no-repeat 0 0;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.centent_right .jingling a .svgIconsImg2{
+    display: inline-block;
+    vertical-align: top;
+    width: 12px;
+    height: 14px;
+    background: transparent url(../images/lianjie2hong.png) no-repeat 0 0;
+    position: absolute;
+    left: 35px;
+    top: 11px;
+}
+.box_centent .centent_right .anniu{
+    width:390px;
+    height: 36px;
+    position: absolute;
+    /* border:1px solid red; */
+    right:0px;
+    top: 0;
+}
+.box_centent .centent_right .anniu ul li{
+    float: left;
+    margin-left: 20px;
+}
+.box_centent .centent_right .anniu ul li input.dian{
+    padding: 8px 10px;
+    font-size: .929rem;
+    margin-right: 8px;
+}
+.centent_right .smallPlusGraybtn {
+    padding: 8px 12px;
+    display: inline-block;
+    background: #fff url(//img.zohostatic.com.cn/crm/images/svgicons_43e8a_.svg) no-repeat -309px -1074px;
+    padding-left: 30px;
+    border: solid 1px #c4c4c4;
+    font-size: .929rem;
+    margin-right: 8px;
+}
+.box_centent .centent_right .anniu ul li input:hover{
+    border-bottom: #111 1px solid;
+}
+.xlcd{
+    width:220px;
+    height:420px;
+    background-color:#fff;
+    position: absolute;
+    -webkit-box-shadow: 0 1px 16px rgba(0,0,0,0.3)!important;
+    left: 0px;
+    top:33px;
+}
+.xlcd .CVSearchBox{
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(119,119,119);
+}
+.xlcd .suosuo{
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: #fff url(//img.zohostatic.com.cn/crm/images/svgicons_43e8a_.svg) no-repeat 8px -177px;
+    opacity: .9;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: .929rem;
+    color: #000;
+    padding-left: 30px;
+    width: 100%!important;
+    height: 30px;
+}
+.xlcd .cvlist{
+    height: 356px;
+    width:100%;
+    /* overflow: hidden; */
+    overflow:scroll;
+}
+.xlcd .cvlist ul{
+    list-style:none;
+    padding:0;
+}
+.xlcd .cvlist ul li{
+    margin:0;
+    padding:5px 0;
+}
+.xlcd .cvlist ul li:hover{
+    background-color: #777777de;
+}
+.xlcd .cvlist ul li:hover span{
+    width: 14px;
+    height: 14px;
+    background: transparent url(//img.zohostatic.com.cn/crm/images/svgicons_43e8a_.svg) no-repeat -73px -18px;
+    margin-left: 5px;
+}
+.xlcd .cvlist ul li span{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background:url(../images/icon3.png) center no-repeat;
+    background-size:100% 100%;
+    margin-left:3px;
+    margin-right:4px;
+}
+.xlcd .createView{
+    color: #2083cf;
+    line-height: 1.286rem!important;
+    -webkit-font-smoothing: initial;
+    margin-left: 30px;
+}
+
+/*中间内容*/
+.box_bottom{
+    height: 90%;
+}
+.box_bottom .kefu1_fu1{
+    width: 477.75px;
+    height: 100%;
+    overflow: hidden;
+    border-right: 1px solid #B4B4B4;
+    position: relative;
+}
+.box_bottom .kefu1_fu1 .kefu1{
+    width: 85%;
+    height: 58px;
+    padding-top: 27px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5px!important;
+    /* border:1px solid red; */
+}
+.box_bottom .kefu1_fu1 .kefu1 span{
+    font-size: 17px;
+    height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.box_bottom .kefu1_fu2{
+    width: 477.75px;
+    height: 100%;
+    overflow: hidden;
+    border-right: 1px solid #B4B4B4;
+    position: relative;
+    left: 477.75px;
+    top: -100%;
+}
+.box_bottom .kefu1_fu2 .kefu1{
+    width: 85%;
+    height: 58px;
+    padding-top: 27px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5px!important;
+    /* border:1px solid red; */
+}
+.box_bottom .kefu1_fu2 .kefu1 span{
+    font-size: 17px;
+    height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.box_bottom .kefu1_fu3{
+    width: 477.75px;
+    height: 100%;
+    overflow: hidden;
+    border-right: 1px solid #B4B4B4;
+    position: relative;
+    left: 1000px;
+    top: 100%;
+}
+.box_bottom .kefu1_fu3 .kefu1{
+    width: 85%;
+    height: 58px;
+    padding-top: 27px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5px!important;
+    /* border:1px solid red; */
+}
+.box_bottom .kefu1_fu3 .kefu1 span{
+    font-size: 17px;
+    height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.box_bottom  .bottom_bottom ul li{
+    height: 165px;
+    cursor: pointer;
+}
+.box_bottom  .bottom_bottom ul li:hover{
+    background-color: #f8f8f8;
+}
+.box_bottom  .bottom_bottom .bottom_one{
+    height: 165px;
+    border-bottom-color: rgb(238, 238, 238);
+    position: relative;
+}
+.box_bottom  .bottom_bottom ul li .bottom_one .jisuan{
+    width: 17px;
+    height: 19px;
+    background: url(//img.zohostatic.com.cn/crm/images/svgicons_43e8a_.svg) no-repeat -127px -65px!important;
+    margin-right: 5px;
+    float: left!important;
+    position: absolute;
+    left: 35px;
+    top: 10px;
+}
+.box_bottom  .bottom_bottom ul li .bottom_one .CRM{
+    position: absolute;
+    left: 60px;
+    top: 10px;
+}
+.box_bottom  .bottom_bottom ul li .bottom_one .shijian{
+    float: right!important;
+    max-width: 60%;
+    font-size: 11px;
+    margin-top: 2px;
+    color: #7a7a7a;
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+.box_bottom  .bottom_bottom ul li .bottom_one .keji{
+    font-family: ProximaNovaRegular,sans-serif;
+    color: #7a7a7a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: normal;
+    vertical-align: bottom;
+    font-size: .857rem;
+    position: absolute;
+    left: 25px;
+    bottom: 100px;
+}
+.box_bottom  .bottom_bottom ul li .bottom_one .name{
+    float: left!important;
+    font-family: ProximaNovaRegular;
+    color: #7a7a7a;
+    max-width: 43%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    left: 25px;
+    bottom: 70px;
+    font-weight: bold;
+}
+.box_bottom  .bottom_bottom ul li .bottom_one .zhuangtai{
+    float: left!important;
+    font-family: ProximaNovaRegular;
+    color: #a09f9f;
+    position: absolute;
+    left: 85px;
+    bottom: 70px;
+}
+.box_bottom  .bottom_bottom ul li .bottom_one .jine{
+    font-family: ProximaNovaRegular;
+    color: #fff;
+    background-color: #91b693;
+    padding: 1px 5px;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    left: 25px;
+    bottom: 30px;
+}
+.box_bottom  .bottom_bottom ul li .bottom_one .cxbj{
+    position: absolute;
+    right: 25px;
+    bottom: 15px;
+    color: #9b9b9b;
+    margin-right: 10px!important;
+}
