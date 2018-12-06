@@ -6,12 +6,184 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zoho CRM-任务、通话及活动</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/daohang.css">
     <link rel="stylesheet" href="css/zhangshupenghuodong.css">
     <link rel="stylesheet" href="css/global.css">
 </head>
 
 <body>
-    <div class="box_top"></div>
+    <div class="box_top">
+        <!-- 遮挡 -->
+        <!-- 页签遮挡 -->
+        <div class="zhedang"></div>
+        <div class="zhedang_yeqian">
+            <div class="zhedang_yeqian_h">
+                <h2>页签组 </h2>
+                <span></span>
+            </div>
+            <div class="zhedang_yeqian_bianji">
+                <div class="top">
+                    <p>名称</p>
+                    <input type="text">
+                    <span></span>
+                </div>
+                <div class="zhedang_yeqian_nav">
+                    <p>页签</p>
+                    <div id="zhedang_box">
+                        <span class="gundongtiao"></span>
+                        <ul id="zhedang_ul">
+                            <li class="lis zhedang_lis" data-lis="ons">
+                                <span></span>主页</li>
+                            <li class="lis zhedang_lis" data-lis="ons">
+                                <span></span>动态</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>线索</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>联系人</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>客户</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>交易</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>任务、通话及活动</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>报表</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>数据分析</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>产品</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>报价</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>数据分析</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>产品</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>报价</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>销售订单</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>采购订单</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>发货单</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>SalesInbox</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>市场活动</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>供货商</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>价格表</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>服务支持</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>解决方案</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>预测</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>SalesInbox</li>
+                            <li data-lis="on" class="zhedang_lis">
+                                <span></span>电子邮件</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="zhedang_btn">
+                    <span class="xiao">取消</span>
+                    <span class="cun">保存</span>
+                </div>
+            </div>
+        </div>
+        <!-- 页签组管理页面 -->
+        <!-- <div class="yeqian_guanli">
+            <div class="zhedang_yeqian_h">
+                <h2>页签组 </h2>
+                <span></span>
+            </div>
+            <div class="zhedang_yeqian_p">
+                <p class="zhedang_yeqian_text">您至多可以创建25个页签组。每个页签组可以包含无限数量的页签。 页签组中的页签访问权限基于用户角色。
+                </p>
+                <div class="zhedang_yeqian_bth">
+                    <p>创建页签组</p>
+                </div>
+                <hr>
+            </div>
+        </div> -->
+        <!-- 导航栏 -->
+        <div class="nav">
+            <div class="nav_left">
+                <div class="nav_left_heng">
+                    <div class="yin">
+                        <p class="fanfkuai"></p>
+                        <h2>页签组</h2>
+                        <p class="yin_ps">
+                            <span></span> 所有标签
+                        </p>
+                        <hr>
+                        <div class="yin_divs">
+                            <span class="cuang">创建</span>
+                            <span class="guan">管理</span>
+                        </div>
+                        <p class="yin_tumo"></p>
+                    </div>
+                </div>
+                <ul>
+                    <li>主页</li>
+                    <li>线索</li>
+                    <li>联系人</li>
+                    <li>客户</li>
+                    <li>交易</li>
+                    <li class="color">任务、通话及活动</li>
+                    <li>报表</li>
+                    <li>数据分析</li>
+                    <li>产品</li>
+                    <li>报价</li>
+                    <li>销售订单</li>
+                    <li>采购订单</li>
+                    <li>发货单</li>
+                    <li>SalesInbox</li>
+                </ul>
+                <div class="nav_left_dian">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="nav_right">
+                <ul>
+                    <li>
+                        试用 - 旗舰版
+                        <br>
+                        <a href="#">升级</a>
+                    </li>
+                    <li>
+                        <p></p>
+                    </li>
+                    <li class="yangshi2">
+                        <p>
+                            <span></span>
+                            <input type="text" placeholder="搜索">
+                            <span></span>
+                        </p>
+                    </li>
+                    <li>
+                        <p></p>
+                        <div class="yin"></div>
+                    </li>
+                    <li>
+                        <p></p>
+                    </li>
+                    <li>
+                        <p></p>
+                    </li>
+                    <li>
+                        <p></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <div class="box_centent">
         <div class="centent_left">
             <div class="span_fu" id="span_fu">
@@ -108,16 +280,17 @@
         <div class="kefu1_fu1">
             <div class="kefu1">
                 <span>客户</span>
+                <i class="huiqu"></i>
             </div>
             <div class="bottom_bottom">
                 <ul>
                     <li>
-                        <div class="bottom_one">
+                        <div class="bottom_one" id="bottom_one">
                             <span class="jisuan"></span>
                             <span class="CRM">CRM 网络研讨会</span>
                             <span class="shijian">十二月 5, 11:27 上午 - 11:32 上午</span>
                             <span class="keji">兴时科技</span>
-                            <span class="name">对对对</span>
+                            <span class="yonghuname">对对对</span>
                             <span class="zhuangtai">在线</span>
                             <p class="jine">¥<span>35.000.00</span></p>
                             <span class="cxbj">编辑</span>
@@ -125,11 +298,11 @@
                     </li>
                     <li>
                         <div class="bottom_one">
-                            <span class="jisuan"></span>
+                            <span class="jisuan1"></span>
                             <span class="CRM">CRM参考视频</span>
                             <span class="shijian">十二月 5, 11:27 上午 - 11:32 上午</span>
                             <span class="keji">兴时科技 -舟 程</span>
-                            <span class="name">对对对</span>
+                            <span class="yonghuname">对对对</span>
                             <span class="zhuangtai">进行中</span>
                             <p class="jine">¥<span>35.000.00</span></p>
                             <span class="cxbj">编辑</span>
@@ -140,29 +313,31 @@
         </div>
         <div class="kefu1_fu2">
             <div class="kefu1">
-                <span>客户</span>
+                <span>未关单 交易</span>
+                <i class="huiqu"></i>
             </div>
             <div class="bottom_bottom">
                 <ul>
                     <li>
                         <div class="bottom_one">
-                            <span class="jisuan"></span>
-                            <span class="CRM">CRM 网络研讨会</span>
-                            <span class="shijian">十二月 5, 11:27 上午 - 11:32 上午</span>
-                            <span class="keji">兴时科技</span>
-                            <span class="name">对对对</span>
-                            <span class="zhuangtai">在线</span>
+                            <span class="jisuan1"></span>
+                            <span class="CRM">给商机客户打电话</span>
+                            <span class="shijian">十二月 5</span>
+                            <p class="tonghua"><span>15</span>秒</p>
+                            <span class="keji">吉祥如意餐饮 -顾离 徐</span>
+                            <span class="yonghuname">对对对</span>
+                            <span class="zhuangtai">呼入</span>
                             <p class="jine">¥<span>35.000.00</span></p>
                             <span class="cxbj">编辑</span>
                         </div>
                     </li>
                     <li>
-                        <div class="bottom_one">
+                        <div class="bottom_one ">
                             <span class="jisuan"></span>
                             <span class="CRM">CRM参考视频</span>
                             <span class="shijian">十二月 5, 11:27 上午 - 11:32 上午</span>
                             <span class="keji">兴时科技 -舟 程</span>
-                            <span class="name">对对对</span>
+                            <span class="yonghuname">对对对</span>
                             <span class="zhuangtai">进行中</span>
                             <p class="jine">¥<span>35.000.00</span></p>
                             <span class="cxbj">编辑</span>
@@ -173,19 +348,19 @@
         </div>
         <div class="kefu1_fu3">
             <div class="kefu1">
-                <span>客户</span>
+                <span>线索/联系人</span>
+                <i class="huiqu"></i>
             </div>
             <div class="bottom_bottom">
-                <ul>
+                <ul class="kefu1_fu3_li">
                     <li>
                         <div class="bottom_one">
                             <span class="jisuan"></span>
                             <span class="CRM">CRM 网络研讨会</span>
                             <span class="shijian">十二月 5, 11:27 上午 - 11:32 上午</span>
                             <span class="keji">兴时科技</span>
-                            <span class="name">对对对</span>
+                            <span class="yonghuname">对对对</span>
                             <span class="zhuangtai">在线</span>
-                            <p class="jine">¥<span>35.000.00</span></p>
                             <span class="cxbj">编辑</span>
                         </div>
                     </li>
@@ -195,9 +370,8 @@
                             <span class="CRM">CRM参考视频</span>
                             <span class="shijian">十二月 5, 11:27 上午 - 11:32 上午</span>
                             <span class="keji">兴时科技 -舟 程</span>
-                            <span class="name">对对对</span>
+                            <span class="yonghuname">对对对</span>
                             <span class="zhuangtai">进行中</span>
-                            <p class="jine">¥<span>35.000.00</span></p>
                             <span class="cxbj">编辑</span>
                         </div>
                     </li>
@@ -206,41 +380,111 @@
         </div>
         <div class="kefu1_fu4">
             <div class="kefu1">
-                <span>客户</span>
+                <span>其他</span>
+                <i class="huiqu"></i>
             </div>
             <div class="bottom_bottom">
-                <ul>
+                <ul class="kefu1_fu3_li">
                     <li>
                         <div class="bottom_one">
                             <span class="jisuan"></span>
                             <span class="CRM">CRM 网络研讨会</span>
                             <span class="shijian">十二月 5, 11:27 上午 - 11:32 上午</span>
                             <span class="keji">兴时科技</span>
-                            <span class="name">对对对</span>
+                            <span class="yonghuname">对对对</span>
                             <span class="zhuangtai">在线</span>
-                            <p class="jine">¥<span>35.000.00</span></p>
-                            <span class="cxbj">编辑</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="bottom_one">
-                            <span class="jisuan"></span>
-                            <span class="CRM">CRM参考视频</span>
-                            <span class="shijian">十二月 5, 11:27 上午 - 11:32 上午</span>
-                            <span class="keji">兴时科技 -舟 程</span>
-                            <span class="name">对对对</span>
-                            <span class="zhuangtai">进行中</span>
-                            <p class="jine">¥<span>35.000.00</span></p>
                             <span class="cxbj">编辑</span>
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
+        <!-- 详细信息 -->
+        <div class="xiangxi" id="xiangxi" style="display:none;">
+            <div class="xiangxi_left">
+                <div class="left_top">
+                    <div class="top_biao">
+                        <span class="top_biao_sj"></span>
+                        <span class="bixo_ti">CRM 网络研讨会</span>
+                        <span class="biaoqian"></span>
+                        <a href="#">添加标签</a>
+                        <div class="yincang">
+                            <input type="text">
+                            <span class="baocun">保存</span>
+                            <span class="quxiao">取消</span>
+                        </div>
+                    </div>
+                    <div class="topkeji">
+                        <div class="topkeji_jiaoyi">
+                            <p class="jiaoyi">交易 <a href="#">兴时科技</a></p>
+                            <p class="zhuchi">
+                                <span class="zhuchi_zc">主持</span>
+                                <span class="zhuchi_name">对对对</span>
+                            </p>
+                        </div>
+                        <div class="topkeji_div">
+                            <span class="keji_rli"></span>
+                            <span class="keji_sj"></span>
+                            <span class="keji_zt"></span>
+                            <span class="keji_rli_sj">星期三, 十二月 05</span>
+                            <span class="keji_sj_sj">11:27 上午 - 11:32 上午</span>
+                            <span class="keji_zt_zt">在线</span>
+                            <span class="huabi huabi1"></span>
+                            <span class="huabi huabi2"></span>
+                            <span class="huabi huabi3"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="left_centent">
+                    <span class="qita">其他信息</span>
+                    <div class="xiugai">
+                        <div class="xiugai_left">
+                            <span class="xgz">修改者</span>
+                            <span class="xgzname">对对对</span>
+                            <span class="xgsj">星期三, 5 十二月 2018 08:27 上午</span>
+                        </div>
+                        <div class="chuangjian_right">
+                            <span class="xgz">创建者</span>
+                            <span class="xgzname">对对对</span>
+                            <span class="xgsj">星期三, 5 十二月 2018 08:27 上午</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="left_bottom">
+                    <div class="cjzhe">
+                        <span>参加者 <a href="#">+添加</a></span>
+                    </div>
+                    <div class="qingkuang">
+                        <span class="yqrs daxiao">0</span>
+                        <span class="ckrs daxiao">0</span>
+                        <span class="ddrs daxiao">0</span>
+                        <span class="yaoqing">已邀请</span>
+                        <span class="chakan">去查看</span>
+                        <span class="daiding">待定</span>
+                    </div>
+                </div>
+                <div class="left_input">
+                    <span>备注</span>
+                    <div class="inputkuang">
+                        <input type="text" placeholder="添加备注...">
+                        <textarea tabindex="1000" class="" style="height:60px; overflow:auto !important; resize:vertical !important;padding: 5px;"
+                            placeholder="添加备注"></textarea>
+                    </div>
+                    <span class="fujia">附加</span>
+                </div>
+            </div>
+            <div class="xiangxi_right">
+
+            </div>
+        </div>
     </div>
+    <!-- 底部聊天 -->
+    <div class="bottom"></div>
 </body>
 
 </html>
+<script type="text/javascript" src="http://g.alicdn.com/sj/lib/jquery.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 <script>
     var a = true;
     span_fu.onclick = function () {
@@ -252,4 +496,16 @@
             a = true;
         }
     }
+    $(function () {
+        $(".bottom_one2").on("click", function () {
+            $(".kefu1_fu2").addClass("donghua");
+            $("#huiqu").css("display", "block");
+            $("#xiangxi").css("display", "block");
+
+        })
+        $("#huiqu").on("click", function () {
+            $("#huiqu").css("display", "none");
+            $("#xiangxi").css("display", "none");
+        })
+    })
 </script>
