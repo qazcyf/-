@@ -5,19 +5,191 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>立方科技管理系统</title>
     <link rel="stylesheet" href="components/css/normalize.css">
     <link rel="stylesheet" href="components/css/index.css">
+    <link rel="stylesheet" href="components/css/reset.css">
 </head>
 
 <body>
-    <div class="nav"></div>
+    <!-- 遮挡 -->
+    <!-- 页签遮挡 -->
+    <div class="zhedang"></div>
+    <div class="zhedang_yeqian">
+        <div class="zhedang_yeqian_h">
+            <h2>页签组 </h2>
+            <span></span>
+        </div>
+        <div class="zhedang_yeqian_bianji">
+            <div class="top">
+                <p>名称</p>
+                <input type="text">
+                <span></span>
+            </div>
+            <div class="zhedang_yeqian_nav">
+                <p>页签</p>
+                <div id="zhedang_box">
+                    <span class="gundongtiao"></span>
+                    <ul id="zhedang_ul">
+                        <li class="lis zhedang_lis" data-lis="ons">
+                            <span></span>主页</li>
+                        <li class="lis zhedang_lis" data-lis="ons">
+                            <span></span>动态</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>线索</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>联系人</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>客户</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>交易</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>任务、通话及活动</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>报表</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>数据分析</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>产品</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>报价</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>数据分析</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>产品</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>报价</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>销售订单</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>采购订单</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>发货单</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>SalesInbox</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>市场活动</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>供货商</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>价格表</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>服务支持</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>解决方案</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>预测</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>SalesInbox</li>
+                        <li data-lis="on" class="zhedang_lis">
+                            <span></span>电子邮件</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="zhedang_btn">
+                <span class="xiao">取消</span>
+                <span class="cun">保存</span>
+            </div>
+        </div>
+    </div>
+    <!-- 页签组管理页面 -->
+    <div class="yeqian_guanli">
+        <div class="zhedang_yeqian_h">
+            <h2>页签组 </h2>
+            <span></span>
+        </div>
+        <div class="zhedang_yeqian_p">
+            <p class="zhedang_yeqian_text">您至多可以创建25个页签组。每个页签组可以包含无限数量的页签。 页签组中的页签访问权限基于用户角色。
+            </p>
+            <div class="zhedang_yeqian_bth">
+                <p>创建页签组</p>
+            </div>
+            <hr>
+            
+        </div>
+    </div>
+    <!-- 导航栏 -->
+    <div class="nav">
+        <div class="nav_left">
+            <div class="nav_left_heng">
+                <div class="yin">
+                    <p class="fanfkuai"></p>
+                    <h2>页签组</h2>
+                    <p class="yin_ps">
+                        <span></span> 所有标签
+                    </p>
+                    <hr>
+                    <div class="yin_divs">
+                        <span class="cuang">创建</span>
+                        <span class="guan">管理</span>
+                    </div>
+                    <p class="yin_tumo"></p>
+                </div>
+            </div>
+            <ul>
+                <li class="color">主页</li>
+                <li>线索</li>
+                <li>联系人</li>
+                <li>客户</li>
+                <li>交易</li>
+                <li>任务、通话及活动</li>
+                <li>报表</li>
+                <li>数据分析</li>
+                <li>产品</li>
+                <li>报价</li>
+                <li>销售订单</li>
+                <li>采购订单</li>
+                <li>发货单</li>
+                <li>SalesInbox</li>
+            </ul>
+            <div class="nav_left_dian">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="nav_right">
+            <ul>
+                <li>
+                    试用 - 旗舰版
+                    <br>
+                    <a href="#">升级</a>
+                </li>
+                <li>
+                    <p></p>
+                </li>
+                <li class="yangshi2">
+                    <p>
+                        <span></span>
+                        <input type="text" placeholder="搜索">
+                        <span></span>
+                    </p>
+                </li>
+                <li>
+                    <p></p>
+                    <div class="yin"></div>
+                </li>
+                <li>
+                    <p></p>
+                </li>
+                <li>
+                    <p></p>
+                </li>
+                <li>
+                    <p></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 我的主页 -->
     <div class="name"></div>
+    <!-- 具体内容 -->
     <iframe src="components/cyf.html" frameborder="0" id="iframe"></iframe>
+    <!-- 底部聊天 -->
     <div class="bottom"></div>
 </body>
 
 </html>
-<script>
-
-</script>
+<script type="text/javascript" src="http://g.alicdn.com/sj/lib/jquery.min.js"></script>
+<script type="text/javascript" src="components/js/index.js"></script>
