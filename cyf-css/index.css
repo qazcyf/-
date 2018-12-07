@@ -13,7 +13,7 @@ body{
     width: 100%;
     height: 1300px;
     background-color: white;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0px;
     z-index: 999;
@@ -587,6 +587,7 @@ body{
     background-color: white;
     box-shadow: 0px 3px 5px 1px gray;
     display: none;
+    z-index: 99999;
 }
 .nav .nav_right ul li .renwu_yin .fangkuais{
     position: absolute;
@@ -612,7 +613,7 @@ body{
 .nav .nav_right ul li .renwu_yin .divs p{
     width: 90%;
     background-color: white;
-    background-cyf-image: url("");
+    background-image: url("");
     height: 35px;
     line-height: 35px;
     font-size: 16px;
@@ -652,6 +653,7 @@ body{
     position: fixed;
     left: 0px;
     z-index: 0;
+    text-align: center;
 }
 .name .name_huanyin{
     float: left;
@@ -664,23 +666,75 @@ body{
     display: flex;
     line-height: 44px;
     font-size: 16px;
+    width: 280px;
+    height: 100%;
+}
+.name .name_div div{
+    position: relative;
 }
 .name .name_div .name_div_shuai{
-    cursor:pointer;
-    width: 30px;
+    width: 40px;
+    height: 100%;
     background: url(../cyf-image/shuai.png) center center no-repeat;
-    position: relative;
 }
 .name .name_div .name_div_shuai:hover{
     background: url(../cyf-image/shuai_lan.png) center center no-repeat;
 }
-.name .name_div .name_div_shuai span{
-    /* display: none; */
-    
-    position: absolute;
+.name .name_div .name_div_shuai p{
+    width: 100px;
+    padding: 3px;
+    height: 10px;
+    line-height: 10px;
+    background-color: gray;
+    color: white; 
     font-size: 10px;
-    top: 10px;
-    left: 10px;
+    display: none;
+}
+.name .name_div .name_div_zhuye{
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    padding-right: 30px;
+    margin: auto 0px;
+    background: url(../cyf-image/jiao.png) 118px 11px no-repeat;
+    border: 1px solid #f9f9f9;
+}
+.name:hover .name_div .name_div_zhuye{
+    border: 1px solid gray;
+}
+.name .name_div .name_div_zhuye:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.name .name_div .name_div_zhuye .name_div_zhuye_yin{
+    position: absolute;
+    top: 30px;
+    width: 215px;
+    background-color: white;
+    box-shadow: 5px 5px 19px 3px gray;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 0;
+    display: none;
+    overflow: hidden;
+}
+.name .name_div .name_div_zhuye .name_div_zhuye_yin p{
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 25px;
+}
+.name .name_div .name_div_zhuye .name_div_zhuye_yin p:nth-child(2){
+    background: url(../cyf-image/dui_1.png) 8px center no-repeat;
+}
+.name .name_div .name_div_zhuye .name_div_zhuye_yin p:hover{
+    background-color: #f0f0f0;
+}
+.name .name_div .name_div_zhuye .name_div_zhuye_yin p:nth-child(2):hover{
+    background: url(../cyf-image/dui_2.png) 8px center no-repeat;
+    background-color: #f0f0f0;
 }
 /* 具体内容 */
 #iframe{
@@ -708,6 +762,7 @@ body{
     top: 50px;
     width: 250px;
     display: none;
+    z-index: 99999;
     box-shadow: 0px 3px 5px 1px gray;
 }
 .nav_yin .nav_yin_jiao{
@@ -739,6 +794,7 @@ body{
     width: 100%;
     flex-direction:column;
     margin-top: 10px;
+    z-index: 99999;
 }
 .nav .nav_left_dian .nav_yin .nav_yin_ul li{
     width: 220px;
