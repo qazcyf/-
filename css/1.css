@@ -1,0 +1,189 @@
+*{
+    padding:0;
+    margin: 0;
+}
+a{
+    outline: none medium;
+    text-decoration: none;
+}
+.box{
+    width: 100%;
+}
+.box1{
+    width: 1920px;
+    height: 890px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.left{
+    width: 250px;
+    height: 890px;
+    overflow:scroll; 
+}
+.left1{
+    width: 250px;
+    height: 980px;
+    overflow:hidden;
+    /* background-color:pink; */
+}
+.reportsLeftNav{
+    padding-top: 10px;
+    color: #000;
+    width: 100%;
+    height: 31px;
+    padding-bottom: 5px;
+    top: 0;
+    background: #f1f1f1;
+}
+.reportmenu_Hdr {
+    font-size: 12px;
+    margin: 10px 0 0 20px!important;
+    cursor: default;
+    text-transform: uppercase;
+    color: #666;
+}
+.rightbtns{
+    float: right!important;
+}
+.rightbtns{
+    margin-right: 15px!important;
+}
+.rightbtns a{
+    color: #3e5f98;
+    font-size: 14px;
+}
+.rep_leftPar {
+    float: none;
+    width: 100%;
+    height: 35px;
+    background: #f1f1f1;
+}
+.SearchBoxDiv{
+    height: 25px;
+    border: 1px solid #e0e0e0;
+    margin-top:7px;
+    background-color: #fff;
+    margin-left:25px!important;
+    width: 80%;
+    border-radius:4px;
+}
+.ico-search {
+    background-position: 0 0;
+    width: 16px;
+    height: 16px;
+}
+.svgIcons {
+    width: 16px;
+    height: 16px;
+    margin: 4px 10px 0 8px;
+    background: url(../image/svgicons_43e8a_.svg) 2px 4px no-repeat ;
+}
+.SearchInput {
+    width: 85%;
+    height: 25px;
+    margin-top: 0px;
+    margin-left: 20px;
+    text-overflow: ellipsis;
+    /* overflow: hidden; */
+    border:none;
+    outline:none;
+    font-size:14px; 
+} 
+.folderList{
+    display: block;
+    color: #333333;
+}
+.folderList ul{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    background: #f1f1f1;
+    z-index: 2;
+    list-style: none outside none;
+}
+.folderList ul li{
+    padding: 0;
+    width: 92%;
+    height: 50px;
+    /* background-color:red; */
+    white-space: nowrap;
+    line-height: 50px;
+    padding-left:20px;
+}
+.folderList ul li:hover{
+    background-color:#d4dbe1;
+}
+.folderList ul li:hover .xiaotubiao{
+    background: url(../image/svgicons_43e8a_.svg) no-repeat -113px -392px;
+}
+/* .xiaotubiao2{
+    width: 16px!important;
+    height: 16px!important;
+    background: url(../image/svgicons_43e8a_.svg) no-repeat -130px -394px!important;
+    display: block!;
+} */
+.xiaotubiao{
+    width: 16px;
+    height: 16px;
+    background: url(../image/svgicons_43e8a_.svg) no-repeat -113px -392px;
+    display: none;
+    margin-top:15px;
+    margin-right:15px;
+    float: right!important;
+}
+li:hover .xiaotubiao{
+    display: block;
+}
+.cs{
+    clear: both;
+}
+
+.Fortrash{
+    width: 250px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    padding: 3px 0;
+    position: relative;
+    bottom: 5px;
+    background: #eee;
+}
+.xiaotubiao1{
+    background: url(../image/svgicons_43e8a_.svg) no-repeat -160px -246px;
+    width: 11px;
+    height: 13px;
+    position: absolute;
+    top: 18px;
+    left: 65px;
+    display: block;  
+}
+.listText1{
+    position: absolute;
+    top: 14px;
+    left: 95px;
+}
+.shangbianxian{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 92%;
+    bottom: 43px;
+    height: 10px;
+    left: 4%;
+    right: 4%;
+    border-radius: 100px / 5px;
+    box-shadow: 0 0 18px rgba(0,0,0,0.6);
+    background: transparent;
+}
+.right{
+
+    width: 1200px;
+    height: 600px;
+    background-color:red;
+    z-index: 999;
+}
+.imgurl{
+    background: url(//img.zohostatic.com.cn/crm/images/svgicons_43e8a_.svg) no-repeat -130px -394px;
+}

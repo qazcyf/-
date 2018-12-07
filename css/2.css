@@ -1,0 +1,59 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.box{
+    width: 100%;
+}
+.box1{
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    position: relative;
+}
+.box1 .tupian{
+    width:150px;
+    vertical-align:top;
+    text-align: center;
+    padding:0;   
+}
+.tupian1{
+    background-position: 0 0;
+    background: url(../image/all-bigTitleIcons3_be396_.jpg) no-repeat;
+    width: 150px;
+    height: 150px;
+}
+.box1 h1{
+    position: absolute;
+    font-size: 1.714rem;
+    font-weight: bold;
+    padding: 5px 0px;
+    top: 0px;
+    left: 180px;
+}
+.box1 p{
+    position: absolute;
+    font-size: 0.929rem;
+    top: 60px;
+    left: 180px;
+}
+.box1 button{
+    background-color: rgb(25, 188, 125) !important;
+    background-image: none !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(25, 188, 125) !important;
+    border-image: initial !important;
+    font-size: 1.071rem;
+    margin-right: 0px;
+    padding: 0.8571rem 2.143rem;
+    position: absolute;
+    top: 100px;
+    left: 180px;
+}
+.box1 button a{
+    outline: none medium;
+    text-decoration: none;
+    color: white;
+}
