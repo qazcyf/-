@@ -638,6 +638,14 @@
                 console.log(data);
                 var html = template("fu1", data);
                 $('.bottom_bottom ul li').html(html);
+                $(".bottom_one1").on("click", function () {
+                    console.log(this);
+                    console.log("ok");
+                    $("#xiangxi").css({ "display": "block", "margin-left": 0 + "px" });
+                })
+                $("#huiqu").on("click", function () {
+                    $("#xiangxi").css({ "display": "none", "margin-left": 2000 + "px" });
+                })
             },
         });
         $.ajax({
@@ -682,14 +690,7 @@
         }
     }
     $(function () {
-        $(".bottom_one1").on("click", function () {
-            console.log(this);
-            console.log("ok");
-            $("#xiangxi").css({ "display": "block", "margin-left": 0 + "px" });
-        })
-        $("#huiqu").on("click", function () {
-            $("#xiangxi").css({ "display": "none", "margin-left": 2000 + "px" });
-        })
+
         $(".bottom_one2").on("click", function () {
             $(".kefu1_fu2").addClass("donghua2");
             $("#xiangxi").css({ "display": "block", "margin-left": 0 + "px" });
