@@ -321,7 +321,7 @@ a,input{
     white-space: nowrap;
     position: absolute;
     left: 25px;
-    bottom: 30px;
+    bottom: 0;
 }
 .box_bottom  .bottom_bottom ul li .bottom_one .xingming{
     font-family: ProximaNovaRegular,sans-serif;

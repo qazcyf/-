@@ -229,9 +229,6 @@ a,input{
     cursor: pointer;
     border-bottom:1px solid rgb(238, 238, 238);
 }
-.box_bottom .bottom_bottom ul li:hover{
-    background-color: #f8f8f8;
-}
 .box_bottom  .bottom_bottom .bottom_one{
     /* width: 470.75px; */
     height: 165px;
@@ -321,7 +318,7 @@ a,input{
     white-space: nowrap;
     position: absolute;
     left: 25px;
-    bottom: 30px;
+    bottom: 0px;
 }
 .box_bottom  .bottom_bottom ul li .bottom_one .xingming{
     font-family: ProximaNovaRegular,sans-serif;
@@ -466,8 +463,13 @@ a,input{
 }
 .box_bottom  .bottom_bottom .bottom_one1{
     width: 477.75px;
-    height: 125px;
+    /* height: 125px; */
+    border-bottom: 1px solid rgb(238, 238, 238);
 }
+.box_bottom  .bottom_bottom .bottom_one1:hover{
+    background-color: #f8f8f8;
+}
+
 .box_bottom  .bottom_bottom ul li .bottom_one1 .keji{
     font-family: ProximaNovaRegular,sans-serif;
     color: #7a7a7a;
