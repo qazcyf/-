@@ -435,6 +435,7 @@ header{
     -moz-osx-font-smoothing: grayscale;
     transition: border .3ms ease-in-out;
     width:20px;
+    visibility: visible;
 }
 .inner-center .conten .libiao .li .head .tk .lf span{
     position: absolute;

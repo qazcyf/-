@@ -305,6 +305,29 @@ header{
     font-style: italic;
     font-weight:300;
 }
+.conten .center_left #botton{
+    width: 100%;
+    height:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    border-right:1px solid #eee;
+}
+.conten .center_left #botton input{
+    width:98.28px;
+    height:32px;
+    border-radius:2px;
+    border:1px solid #42a2eb;
+    background-color:#42a2eb;
+    color:#fff;
+    margin-left:19px;
+}
+.conten .center_left #botton .a{
+    color:#42a2eb;
+    text-emphasis: none;
+    font-size:14px;
+    margin-right:37px;
+}
 .inner-center{
     width:100%;
     height:721px;

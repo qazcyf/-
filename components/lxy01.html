@@ -152,10 +152,10 @@
                                 <div class="li">
                                     <div class="head">
                                         <div class="fk">
-                                            <div class="cnm" id="syx">
-                                                <span class="dui"></span>
+                                            <label class="cnm" id="syx">
+                                                <input class="dui" type="checkbox">
                                                 <span>受影响的记录</span>
-                                            </div>
+                                            </label>
                                             <div class="xx" id="xx" style="display:none;">
                                                 通过
                                                 <div class="xiala">
@@ -171,8 +171,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tk" id="tk" style="display:none;">
-                                            <div class="lf">
+                                        <div class="tk" id="tk">
+                                            <div class="lf" id="lf" style="display:none;">
                                                 <select name="" id="x1">
                                                     <option value="1">在最近</option>
                                                     <option value="2">今天</option>
@@ -185,163 +185,27 @@
                                                     <option value="9">知道现在</option>
                                                 </select>
                                                 <input type="text" value="2" id="pt">
-                                                <select name="" id="x2" style="width:27px;height:17px;">
+                                                <select name="" id="x2" style="width:27px;height:17px;visibility:visible;">
                                                     <option value="1">天</option>
                                                     <option value="2">周</option>
                                                     <option value="3">月</option>
                                                 </select>
                                                 <span class="s1"></span>
-                                                <span class="s2"></span>
+                                                <span class="s2" id="s2" style="visibility: visible";></span>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="li">
-                                        <div class="head">
-                                            <div class="fk">
-                                                <div class="cnm" id="syx">
-                                                    <span class="dui"></span>
-                                                    <span>受影响的记录</span>
-                                                </div>
-                                                <div class="xx" id="xx" style="display:none;">
-                                                    通过
-                                                    <div class="xiala">
-                                                        <select name="" id="">
-                                                            <option value="1">用户和系统</option>
-                                                            <option value="2">用户或系统</option>
-                                                            <option value="3">用户</option>
-                                                            <option value="4">系统</option>
-                                                            <option value="5">仅用户</option>
-                                                            <option value="">仅系统</option>
-                                                        </select>
-                                                        <span class="jiantou"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="tk" id="tk" style="display:none;">
-                                                <div class="lf">
-                                                    <select name="" id="x1">
-                                                        <option value="1">在最近</option>
-                                                        <option value="2">今天</option>
-                                                        <option value="3">本周</option>
-                                                        <option value="4">本月</option>
-                                                        <option value="5">今年</option>
-                                                        <option value="6">在过去30天</option>
-                                                        <option value="7">在过去60天</option>
-                                                        <option value="8">在过去90天</option>
-                                                        <option value="9">知道现在</option>
-                                                    </select>
-                                                    <input type="text" value="2" id="pt">
-                                                    <select name="" id="x2" style="width:27px;height:17px;">
-                                                        <option value="1">天</option>
-                                                        <option value="2">周</option>
-                                                        <option value="3">月</option>
-                                                    </select>
-                                                    <span class="s1"></span>
-                                                    <span class="s2"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                </div>
-                                <div class="li">
-                                        <div class="head">
-                                            <div class="fk">
-                                                <div class="cnm" id="syx">
-                                                    <span class="dui"></span>
-                                                    <span>受影响的记录</span>
-                                                </div>
-                                                <div class="xx" id="xx" style="display:none;">
-                                                    通过
-                                                    <div class="xiala">
-                                                        <select name="" id="">
-                                                            <option value="1">用户和系统</option>
-                                                            <option value="2">用户或系统</option>
-                                                            <option value="3">用户</option>
-                                                            <option value="4">系统</option>
-                                                            <option value="5">仅用户</option>
-                                                            <option value="">仅系统</option>
-                                                        </select>
-                                                        <span class="jiantou"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="tk" id="tk" style="display:none;">
-                                                <div class="lf">
-                                                    <select name="" id="x1">
-                                                        <option value="1">在最近</option>
-                                                        <option value="2">今天</option>
-                                                        <option value="3">本周</option>
-                                                        <option value="4">本月</option>
-                                                        <option value="5">今年</option>
-                                                        <option value="6">在过去30天</option>
-                                                        <option value="7">在过去60天</option>
-                                                        <option value="8">在过去90天</option>
-                                                        <option value="9">知道现在</option>
-                                                    </select>
-                                                    <input type="text" value="2" id="pt">
-                                                    <select name="" id="x2" style="width:27px;height:17px;">
-                                                        <option value="1">天</option>
-                                                        <option value="2">周</option>
-                                                        <option value="3">月</option>
-                                                    </select>
-                                                    <span class="s1"></span>
-                                                    <span class="s2"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                </div>
-                                <div class="li">
-                                        <div class="head">
-                                            <div class="fk">
-                                                <div class="cnm" id="syx">
-                                                    <span class="dui"></span>
-                                                    <span>受影响的记录</span>
-                                                </div>
-                                                <div class="xx" id="xx" style="display:none;">
-                                                    通过
-                                                    <div class="xiala">
-                                                        <select name="" id="">
-                                                            <option value="1">用户和系统</option>
-                                                            <option value="2">用户或系统</option>
-                                                            <option value="3">用户</option>
-                                                            <option value="4">系统</option>
-                                                            <option value="5">仅用户</option>
-                                                            <option value="">仅系统</option>
-                                                        </select>
-                                                        <span class="jiantou"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="tk" id="tk" style="display:none;">
-                                                <div class="lf">
-                                                    <select name="" id="x1">
-                                                        <option value="1">在最近</option>
-                                                        <option value="2">今天</option>
-                                                        <option value="3">本周</option>
-                                                        <option value="4">本月</option>
-                                                        <option value="5">今年</option>
-                                                        <option value="6">在过去30天</option>
-                                                        <option value="7">在过去60天</option>
-                                                        <option value="8">在过去90天</option>
-                                                        <option value="9">知道现在</option>
-                                                    </select>
-                                                    <input type="text" value="2" id="pt">
-                                                    <select name="" id="x2" style="width:27px;height:17px;">
-                                                        <option value="1">天</option>
-                                                        <option value="2">周</option>
-                                                        <option value="3">月</option>
-                                                    </select>
-                                                    <span class="s1"></span>
-                                                    <span class="s2"></span>
-                                                </div>
-                                            </div>
-                                        </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </form>
+            <div id="botton" style="display: none">
+               <input type="button" value="应用过滤器">
+               <a href="#" class="a">取消</a>
+               <a href=""></a>
+            </div>
         </div>
         <div class="center_right">
             <div class="top">

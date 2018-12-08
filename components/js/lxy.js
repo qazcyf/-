@@ -1,14 +1,18 @@
-
 $("#syx").on("click",function(){
    console.log("ok");
    $("#xx").css("display","block");
-   $("#tk").css("display","block");
+   $("#lf").css("display","block");
 })
-$("#x1").on("click",function(){
+$("#x1").change(function(){
     if($("#x1").val()=="1"){
        console.log("l")
-    $("#pt").css("display","block");
-    $("#x2").css("display","block");
+       $("#x2").css("visibility","visible");
+       $("#s2").css("visibility","visible");
+       $("#pt").css("visibility","visible");
+   }else{
+    $("#x2").css("visibility","hidden");
+    $("#s2").css("visibility","hidden");
+    $("#pt").css("visibility","hidden");
    }
 })
     //网页上所用到的点击切换
