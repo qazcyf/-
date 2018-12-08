@@ -47,7 +47,7 @@ body{
     display: inline-block;
     width: 25px;
     height: 25px;
-    background: url(../image/chas.png) center center no-repeat;
+    background: url(../zsp_image/chas.png) center center no-repeat;
     background-color: red;
     background-size: 100% 100%;
     position: absolute;
@@ -136,7 +136,7 @@ body{
     margin-right: 10px;
 }
 .zhedang_yeqian .zhedang_yeqian_bianji .zhedang_yeqian_nav div ul .lis span{
-    background: url(../image/dui_hui.png) center center no-repeat;
+    background: url(../zsp_image/dui_hui.png) center center no-repeat;
     background-size: 100% 100%;
 }
 .zhedang_yeqian .zhedang_btn{
@@ -192,7 +192,7 @@ body{
     display: inline-block;
     width: 25px;
     height: 25px;
-    background: url(../image/chas.png) center center no-repeat;
+    background: url(../zsp_image/chas.png) center center no-repeat;
     background-color: red;
     background-size: 100% 100%;
     position: absolute;
@@ -219,7 +219,7 @@ body{
     float: left;
     width: 14px;
     height: 10px;
-    background: url(../image/hengxian.png) center center no-repeat;
+    background: url(../zsp_image/hengxian.png) center center no-repeat;
     background-color: red;
     background-size: 100% 100%;
     margin: 21px 10px;
@@ -261,7 +261,7 @@ body{
     display: inline-block;
     width: 14px;
     height: 10px;
-    background: url(../image/dui.png) center center no-repeat;
+    background: url(../zsp_image/dui.png) center center no-repeat;
     background-size: 100% 100%;
     margin-right: 5px;
 }
@@ -350,7 +350,7 @@ body{
     position: absolute;
     width: 15px;
     height: 15px;
-    background: url(../image/sousuo_white.png) center center no-repeat;
+    background: url(../zsp_image/sousuo_white.png) center center no-repeat;
     background-size: 100% 100%;
     left: 9px;
     top: 17px;
@@ -359,7 +359,7 @@ body{
     position: absolute;
     width: 10px;
     height: 10px;
-    background: url(../image/cha.png) center center no-repeat;
+    background: url(../zsp_image/cha.png) center center no-repeat;
     background-size: 100% 100%;
     left: 255px;
     top: 20px;
@@ -372,14 +372,14 @@ body{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: url(../image/sousuo_an.png) center center no-repeat;
+    background: url(../zsp_image/sousuo_an.png) center center no-repeat;
     background-size: 100% 100%;
     margin: -5px 0;
 }
 .nav .nav_right ul li:nth-child(4) p{
     width: 20px;
     height: 20px;
-    background: url(../image/shizi.png) center center no-repeat;
+    background: url(../zsp_image/shizi.png) center center no-repeat;
     background-size: 100% 100%;
     cursor:pointer;
 }
@@ -389,21 +389,21 @@ body{
 .nav .nav_right ul li:nth-child(5) p{
     width: 20px;
     height: 20px;
-    background: url(../image/rili.png) center center no-repeat;
+    background: url(../zsp_image/rili.png) center center no-repeat;
     background-size: 100% 100%;
     cursor:pointer;
 }
 .nav .nav_right ul li:nth-child(6) p{
     width: 20px;
     height: 20px;
-    background: url(../image/gongju.png) center center no-repeat;
+    background: url(../zsp_image/gongju.png) center center no-repeat;
     background-size: 100% 100%;
     cursor:pointer;
 }
 .nav .nav_right ul li:nth-child(7) p{
     width: 40px;
     height: 40px;
-    background: url(../image/ren.png) center center no-repeat;
+    background: url(../zsp_image/ren.png) center center no-repeat;
     background-size: 100% 100%;
     cursor:pointer;
 }
