@@ -26,7 +26,7 @@ a {
 }
 a:visited {
     text-decoration: none;
-    color: #162839;
+    /* color: #162839; */
 }
 input:focus,textarea:focus {
     outline: none;
@@ -37,6 +37,18 @@ input,textarea {
     font-size: .28rem;
 }
 
+input[type="checkbox" i] {
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="radio" i], input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    margin: 3px 0.5ex;
+    padding: initial;
+    border: initial;
+}
 ::-webkit-input-placeholder {
     color: #d6d6d6;
 }

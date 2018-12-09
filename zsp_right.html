@@ -8,7 +8,7 @@
     <title>Zoho CRM-任务、通话及活动</title>
     <link rel="stylesheet" href="zsp_css/normalize.css">
     <link rel="stylesheet" href="zsp_css/daohang.css">
-    <link rel="stylesheet" href="css/zsp_right.css">
+    <link rel="stylesheet" href="zsp_css/zsp_right.css">
     <link rel="stylesheet" href="zsp_css/global.css">
 </head>
 
@@ -405,96 +405,46 @@
             </div>
         </div>
         <div class="kefu1_fu2" id="kefu1_fu2">
+            <div class="kefu1">
+                <span>未关单 交易</span>
+            </div>
+            <div class="bottom_bottom">
+                <ul>
+                    <li>
 
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="kefu1_fu3" id="kefu1_fu3">
+            <div class="kefu1">
+                <span>线索/联系人</span>
+            </div>
+            <div class="bottom_bottom">
+                <ul class="kefu1_fu3_li">
+                    <li>
 
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="kefu1_fu4" id="kefu1_fu4">
+            <div class="kefu1">
+                <span>其他</span>
+            </div>
+            <div class="bottom_bottom">
+                <ul class="kefu1_fu3_li">
+                    <li>
 
+                    </li>
+                </ul>
+            </div>
         </div>
         <!-- 详细信息 -->
         <div class="xiangxi" id="xiangxi" style="display:none;">
             <i class="huiqu" id="huiqu"></i>
             <div class="xiangxi_left">
-                <div class="left_top">
-                    <div class="top_biao">
-                        <span class="top_biao_sj"></span>
-                        <span class="bixo_ti">CRM 网络研讨会</span>
-                        <span class="biaoqian"></span>
-                        <a href="#">添加标签</a>
-                        <div class="yincang">
-                            <input type="text">
-                            <span class="baocun">保存</span>
-                            <span class="quxiao">取消</span>
-                        </div>
-                    </div>
-                    <div class="topkeji">
-                        <div class="topkeji_jiaoyi">
-                            <p class="jiaoyi">交易 <a href="#">兴时科技</a></p>
-                            <p class="zhuchi">
-                                <span class="zhuchi_zc">主持</span>
-                                <span class="zhuchi_name">对对对</span>
-                            </p>
-                        </div>
-                        <div class="topkeji_div">
-                            <span class="keji_rli"></span>
-                            <span class="keji_sj"></span>
-                            <span class="keji_zt"></span>
-                            <span class="keji_rli_sj">星期三, 十二月 05</span>
-                            <span class="keji_sj_sj">11:27 上午 - 11:32 上午</span>
-                            <span class="keji_zt_zt">在线</span>
-                            <span class="huabi huabi1"></span>
-                            <span class="huabi huabi2"></span>
-                            <span class="huabi huabi3"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="left_centent">
-                    <span class="qita">其他信息</span>
-                    <div class="xiugai">
-                        <div class="xiugai_left">
-                            <span class="xgz">修改者</span>
-                            <span class="xgzname">对对对</span>
-                            <span class="xgsj">星期三, 5 十二月 2018 08:27 上午</span>
-                        </div>
-                        <div class="chuangjian_right">
-                            <span class="xgz">创建者</span>
-                            <span class="xgzname">对对对</span>
-                            <span class="xgsj">星期三, 5 十二月 2018 08:27 上午</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="left_bottom">
-                    <div class="cjzhe">
-                        <span>参加者 <a href="#">+添加</a></span>
-                    </div>
-                    <div class="qingkuang">
-                        <span class="yqrs daxiao">0</span>
-                        <span class="ckrs daxiao">0</span>
-                        <span class="ddrs daxiao">0</span>
-                        <span class="yaoqing">已邀请</span>
-                        <span class="chakan">去查看</span>
-                        <span class="daiding">待定</span>
-                    </div>
-                </div>
-                <div class="left_input">
-                    <span>备注</span>
-                    <div class="inputkuang">
-                        <input type="text" placeholder="添加备注...">
-                        <textarea tabindex="1000" class="" style="height:60px; overflow:auto !important; resize:vertical !important;padding: 5px;"
-                            placeholder="添加备注"></textarea>
-                    </div>
-                    <span class="fujia">附加</span>
-                    <span class="fujian">附件</span>
-                    <span class="meiyfj">没有附件</span>
-                    <span class="jjzccz">即将执行的操作</span>
-                </div>
-                <div class="dpngzuo">
-                    <br>
-                    <div class="jinxingdz"><span>没有即将进行的动作</span></div>
-                    <br>
-                </div>
+
             </div>
             <div class="xiangxi_right">
 
@@ -531,35 +481,17 @@
 <script type="text/html" id="fu2">
     {{if code==200}}
         {{each data}}
-        <div class="kefu1">
-                <span>未关单 交易</span>
-            </div>
-            <div class="bottom_bottom">
-                <ul>
-                    <li>
-                        <div class="bottom_one bottom_one2">
-                            <span class="jisuan1"></span>
-                            <span class="CRM">{{$value.主题}}</span>
-                            <span class="shijian">{{$value.到期日期}}</span>
-                            <p class="tonghua"><span>{{$value.通话时间}}</span>秒</p>
-                            <span class="keji">{{$value.关联到}}</span>
-                            <span class="xingming" style="font-family: ProximaNovaRegular,sans-serif;
-                        color: #7a7a7a;
-                        -webkit-font-smoothing: antialiased;
-                        -moz-osx-font-smoothing: grayscale;
-                        line-height: normal;
-                        vertical-align: bottom;
-                        font-size: .857rem;
-                        position: absolute;
-                        top: 45px;
-                        left: 110px;">- {{$value.联系人姓名}}</span>
-                            <span class="yonghuname">{{$value.活动所有者}}</span>
-                            <span class="zhuangtai">{{$value.状态}}</span>
-                            <p class="jine">¥<span>{{$value.金额}}</span></p>
-                            <span class="cxbj">编辑</span>
-                        </div>
-                    </li>
-                </ul>
+            <div class="bottom_one bottom_one2">
+                <span class="jisuan1"></span>
+                <span class="CRM">{{$value.主题}}</span>
+                <span class="shijian">{{$value.到期日期}}</span>
+                <p class="tonghua"><span>{{$value.通话时间}}</span>秒</p>
+                <span class="keji">{{$value.关联到}}</span>
+                <span class="xingming">- {{$value.联系人姓名}}</span>
+                <span class="yonghuname">{{$value.活动所有者}}</span>
+                <span class="zhuangtai">{{$value.状态}}</span>
+                <p class="jine">¥<span>{{$value.金额}}</span></p>
+                <span class="cxbj">编辑</span>
             </div>
         {{/each}}
         {{else}}
@@ -569,33 +501,15 @@
 <script type="text/html" id="fu3">
     {{if code==200}}
         {{each data}}
-        <div class="kefu1">
-                <span>线索/联系人</span>
-            </div>
-            <div class="bottom_bottom">
-                <ul class="kefu1_fu3_li">
-                    <li>
-                        <div class="bottom_one bottom_one3">
-                            <span class="jisuan"></span>
-                            <span class="CRM">{{$value.主题}}</span>
-                            <span class="shijian">{{$value.到期日期}}</span>
-                            <p class="tonghua" style="float: right!important;
-                            font-family: ProximaNovaRegular;
-                            max-width: 35%;
-                            text-transform: uppercase;
-                            max-width: 16%;
-                            position: absolute;
-                            top: 50px;
-                            right: 35px;
-                            color: #7a7a7a;
-                            font-size: 11px;"><span>{{$value.通话时间}}</span>秒</p>
-                            <span class="keji">{{$value.关联到}}</span>
-                            <span class="yonghuname">{{$value.活动所有者}}</span>
-                            <span class="zhuangtai">{{$value.状态}}</span>
-                            <span class="cxbj cxbj_top">编辑</span>
-                        </div>
-                    </li>
-                </ul>
+            <div class="bottom_one bottom_one3">
+                <span class="jisuan"></span>
+                <span class="CRM">{{$value.主题}}</span>
+                <span class="shijian">{{$value.到期日期}}</span>
+                <p class="tonghua"><span>{{$value.通话时间}}</span>秒</p>
+                <span class="keji">{{$value.关联到}}</span>
+                <span class="yonghuname">{{$value.活动所有者}}</span>
+                <span class="zhuangtai">{{$value.状态}}</span>
+                <span class="cxbj cxbj_top">编辑</span>
             </div>
         {{/each}}
         {{else}}
@@ -605,28 +519,106 @@
 <script type="text/html" id="fu4">
     {{if code==200}}
         {{each data}}
-        <div class="kefu1">
-                <span>其他</span>
-            </div>
-            <div class="bottom_bottom">
-                <ul class="kefu1_fu3_li">
-                    <li>
-                        <div class="bottom_one bottom_one4">
-                            <span class="jisuan"></span>
-                            <span class="CRM">CRM 网络研讨会</span>
-                            <span class="shijian">十二月 5, 11:27 上午 - 11:32 上午</span>
-                            <span class="keji">兴时科技</span>
-                            <span class="yonghuname">对对对</span>
-                            <span class="zhuangtai">在线</span>
-                            <span class="cxbj cxbj_top">编辑</span>
-                        </div>
-                    </li>
-                </ul>
+            <div class="bottom_one bottom_one4">
+                <span class="jisuan"></span>
+                <span class="CRM">{{$value.主题}}</span>
+                <span class="shijian">{{$value.到期日期}}</span>
+                <span class="keji">{{$value.关联到}}</span>
+                <span class="yonghuname">{{$value.活动所有者}}</span>
+                <span class="zhuangtai">{{$value.状态}}</span>
+                <span class="cxbj cxbj_top">编辑</span>
             </div>
         {{/each}}
         {{else}}
         <li>暂无记录</li>
     {{/if}}
+</script>
+<script type="text/html" id="fu1cl">
+    {{if code==200}}
+        {{each data}}
+            <div class="left_top">
+                <div class="top_biao">
+                    <span class="top_biao_sj"></span>
+                    <span class="bixo_ti">{{$value.主题}}</span>
+                    <span class="biaoqian"></span>
+                    <a href="#">添加标签</a>
+                    <div class="yincang">
+                        <input type="text">
+                        <span class="baocun">保存</span>
+                        <span class="quxiao">取消</span>
+                    </div>
+                </div>
+                <div class="topkeji">
+                    <div class="topkeji_jiaoyi">
+                        <p class="jiaoyi">交易 <a href="#">兴时科技</a></p>
+                        <p class="zhuchi">
+                            <span class="zhuchi_zc">主持</span>
+                            <span class="zhuchi_name">{{$value.活动所有者}}</span>
+                        </p>
+                    </div>
+                    <div class="topkeji_div">
+                        <span class="keji_rli"></span>
+                        <span class="keji_sj"></span>
+                        <span class="keji_zt"></span>
+                        <span class="keji_rli_sj">星期三, 十二月 05</span>
+                        <span class="keji_sj_sj">11:27 上午 - 11:32 上午</span>
+                        <span class="keji_zt_zt">{{$value.状态}}</span>
+                        <span class="huabi huabi1"></span>
+                        <span class="huabi huabi2"></span>
+                        <span class="huabi huabi3"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="left_centent">
+                <span class="qita">其他信息</span>
+                <div class="xiugai">
+                    <div class="xiugai_left">
+                        <span class="xgz">修改者</span>
+                        <span class="xgzname">对对对</span>
+                        <span class="xgsj">星期三, 5 十二月 2018 08:27 上午</span>
+                    </div>
+                    <div class="chuangjian_right">
+                        <span class="xgz">创建者</span>
+                        <span class="xgzname">对对对</span>
+                        <span class="xgsj">星期三, 5 十二月 2018 08:27 上午</span>
+                    </div>
+                </div>
+            </div>
+            <div class="left_bottom">
+                <div class="cjzhe">
+                    <span>参加者 <a href="#">+添加</a></span>
+                </div>
+                <div class="qingkuang">
+                    <span class="yqrs daxiao">0</span>
+                    <span class="ckrs daxiao">0</span>
+                    <span class="ddrs daxiao">0</span>
+                    <span class="yaoqing">已邀请</span>
+                    <span class="chakan">去查看</span>
+                    <span class="daiding">待定</span>
+                </div>
+            </div>
+            <div class="left_input">
+                <span>备注</span>
+                <div class="inputkuang">
+                    <input type="text" placeholder="添加备注...">
+                    <textarea tabindex="1000" class="" style="height:60px; overflow:auto !important; resize:vertical !important;padding: 5px;"
+                        placeholder="添加备注"></textarea>
+                </div>
+                <span class="fujia">附加</span>
+                <span class="fujian">附件</span>
+                <span class="meiyfj">没有附件</span>
+                <span class="jjzccz">即将执行的操作</span>
+            </div>
+            <div class="dpngzuo">
+                <br>
+                <div class="jinxingdz"><span>没有即将进行的动作</span></div>
+                <br>
+            </div>
+        {{/each}}
+        {{else}}
+        <li>暂无记录</li>
+    {{/if}}
+                
 </script>
 <script>
     $(function () {
@@ -649,13 +641,31 @@
             },
         });
         $.ajax({
+            url: "zsp_php/api1.php",
+            type: "POST",
+            dataType: "json",
+            success: function (data) {
+                console.log(data);
+                var html = template("fu1cl", data);
+                $('.xiangxi_left').html(html);
+            },
+        });
+        $.ajax({
             url: "zsp_php/api2.php",
             type: "POST",
             dataType: "json",
             success: function (data) {
                 console.log(data);
                 var html = template("fu2", data);
-                $('#kefu1_fu2').html(html);
+                $('#kefu1_fu2 .bottom_bottom ul li').html(html);
+                $(".bottom_one2").on("click", function () {
+                    $(".kefu1_fu2").addClass("donghua2");
+                    $("#xiangxi").css({ "display": "block", "margin-left": 0 + "px" });
+                })
+                $("#huiqu").on("click", function () {
+                    $(".kefu1_fu2").removeClass("donghua2");
+                    $("#xiangxi").css({ "display": "none", "margin-left": 2000 + "px" });
+                })
             },
         });
         $.ajax({
@@ -665,7 +675,15 @@
             success: function (data) {
                 console.log(data);
                 var html = template("fu3", data);
-                $('#kefu1_fu3').html(html);
+                $('#kefu1_fu3 .bottom_bottom ul li').html(html);
+                $(".bottom_one3").on("click", function () {
+                    $(".kefu1_fu3").addClass("donghua3");
+                    $("#xiangxi").css({ "display": "block", "margin-left": 0 + "px" });
+                })
+                $("#huiqu").on("click", function () {
+                    $(".kefu1_fu3").removeClass("donghua3");
+                    $("#xiangxi").css({ "display": "none", "margin-left": 2000 + "px" });
+                })
             },
         });
         $.ajax({
@@ -675,7 +693,15 @@
             success: function (data) {
                 console.log(data);
                 var html = template("fu4", data);
-                $('#kefu1_fu4').html(html);
+                $('#kefu1_fu4 .bottom_bottom ul li').html(html);
+                $(".bottom_one4").on("click", function () {
+                    $(".kefu1_fu4").addClass("donghua4");
+                    $("#xiangxi").css({ "display": "block", "margin-left": 0 + "px" });
+                })
+                $("#huiqu").on("click", function () {
+                    $(".kefu1_fu4").removeClass("donghua4");
+                    $("#xiangxi").css({ "display": "none", "margin-left": 2000 + "px" });
+                })
             },
         });
     });
@@ -689,33 +715,4 @@
             a = true;
         }
     }
-    $(function () {
-
-        $(".bottom_one2").on("click", function () {
-            $(".kefu1_fu2").addClass("donghua2");
-            $("#xiangxi").css({ "display": "block", "margin-left": 0 + "px" });
-        })
-        $("#huiqu").on("click", function () {
-            $(".kefu1_fu2").removeClass("donghua2");
-            $("#xiangxi").css({ "display": "none", "margin-left": 2000 + "px" });
-        })
-
-        $(".bottom_one3").on("click", function () {
-            $(".kefu1_fu3").addClass("donghua3");
-            $("#xiangxi").css({ "display": "block", "margin-left": 0 + "px" });
-        })
-        $("#huiqu").on("click", function () {
-            $(".kefu1_fu3").removeClass("donghua3");
-            $("#xiangxi").css({ "display": "none", "margin-left": 2000 + "px" });
-        })
-
-        $(".bottom_one4").on("click", function () {
-            $(".kefu1_fu4").addClass("donghua4");
-            $("#xiangxi").css({ "display": "block", "margin-left": 0 + "px" });
-        })
-        $("#huiqu").on("click", function () {
-            $(".kefu1_fu4").removeClass("donghua4");
-            $("#xiangxi").css({ "display": "none", "margin-left": 2000 + "px" });
-        })
-    })
 </script>
