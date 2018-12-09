@@ -9,6 +9,47 @@
     <link rel="stylesheet" href="hgf-css/sjfx.css">
 </head>
 <body class="body">
+    <!-- 弹出添加组件 -->
+    <div class="tanchuan">
+        <div class="zujian">
+            <div class="add">
+                <span>添加组件</span>
+                <span><a href="#">X</a></span>
+            </div>
+            <div class="center">
+                <ul>
+                    <li class="list1">
+                        <span class="icon"></span>
+                        <span class="tubiao">图表</span>
+                    </li>
+                    <li class="list2">
+                        <span class="icon"></span>
+                        <span class="kpi">KPI</span>
+                    </li>
+                    <li class="list4">
+                        <span class="icon"></span>
+                        <span class="bijiao">比较</span>
+                    </li>
+                    <li class="list3">
+                        <span class="icon"></span>
+                        <span class="yichang">异常检测器</span>
+                    </li>
+                    <li class="list5">
+                        <span class="icon"></span>
+                        <span class="mubiao">目标表</span>
+                    </li>
+                    <li class="list6">
+                        <span class="icon"></span>
+                        <span class="loudou">漏斗</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="tiqu">
+                <span class="icon"></span>
+                <p>从图库中提取</p>
+            </div>
+        </div>
+    </div>
     <!-- main -->
     <main>
         <div class="main">
@@ -75,7 +116,7 @@
                             </div>
                         </li>
                         <!-- 机构概览 -->
-                        <li class="lis2" style="display:block;">
+                        <li class="lis2" style="display:none;">
                             <div class="box2">
                                 <p>机构概览</p>
                                 <div class="deus">
@@ -87,20 +128,94 @@
                             </div>
                             <div class="box2_r">
                                 <div class="r_t">
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
+                                    <div class="t_o">
+                                        <div class="o_top">
+                                            <span>本月线索</span>
+                                            <span class="icon"></span>
+                                        </div>
+                                        <div class="o_cen">
+                                            <span>10</span>
+                                            <span>△</span>
+                                            <span>100%</span>
+                                        </div>
+                                        <p class="o_fot">上月：0</p>
+                                    </div>
+                                    <div class="t_h">
+                                        <div class="h_y">
+                                            <span>本月收入</span>
+                                            <span class="icon"></span>
+                                        </div>
+                                        <p class="no">没有可用数据</p>
+                                    </div>
+                                    <div class="t_g">
+                                        <div class="g_g">
+                                            <span>管道中的商机</span>
+                                            <span class="icon"></span>
+                                        </div>
+                                        <p class="ten">10</p>
+                                    </div>
+                                    <div class="t_f">
+                                        <div class="f_top">
+                                            <span>本月的客户    </span>
+                                            <span class="icon"></span>
+                                        </div>
+                                        <div class="f_cen">
+                                            <span>100%</span>
+                                            <span>10</span>
+                                        </div>
+                                        <p class="f_fot">上月：0</p>
+                                    </div>
+                                </div>
+                                <div class="r_c">
+                                           
                                 </div>
                             </div>
                         </li>
                         <!-- 线索分析 -->
-                        <li class="lis3" style="display:none;">
-                            <div></div>
+                        <li class="lis3" style="display:none">
+                            <div class="box3">
+                                <p>线索分析</p>
+                                <div class="deus">
+                                    <span class="xz"></span>
+                                    <a class="asd"  href="#">添加组件</a>
+                                    <a class="dian" href="#">...</a>
+                                    <span class="wh"></span>
+                                </div>
+                            </div>
                         </li>
                         <!-- 交易透视 -->
                         <li class="lis4" style="display:none;">
-                            <div></div>
+                            <div class="box4">
+                                <p>交易透视</p>
+                                <div class="deus">
+                                    <span class="xz"></span>
+                                    <a class="asd"  href="#">添加组件</a>
+                                    <a class="dian" href="#">...</a>
+                                    <span class="wh"></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="lis5" style="display:none;">
+                            <div class="box5">
+                                <p>任务，通话及活动统计</p>
+                                <div class="deus">
+                                    <span class="xz"></span>
+                                    <a class="asd"  href="#">添加组件</a>
+                                    <a class="dian" href="#">...</a>
+                                    <span class="wh"></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="lis6" style="display:block;">
+                            <div class="box6">
+                                <p>销售指标</p>
+                                <div class="deus">
+                                    <span class="xz"></span>
+                                    <a class="asd"  href="#">添加组件</a>
+                                    <a class="dian" href="#">...</a>
+                                    <span class="wh"></span>
+                                </div>
+                            </div>
                         </li>
                     </ul>
             </div>
@@ -141,3 +256,18 @@ $("#btn").blur(function(){
         $("#qiehuan li").eq(i).show().siblings().hide();
     })
 </script>
+<!-- <script>
+$(function(){
+    $.ajax({
+        url:"api.php",
+        type:"POST",
+        dataType:"json",
+        data:{
+            "action":"image"
+        },
+        success:function(data){
+            console.log(data);
+        }
+    })
+})
+</script> -->

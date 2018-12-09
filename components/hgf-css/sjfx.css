@@ -5,6 +5,160 @@
 body{
     background-color:rgb(238,238,238);
 }
+/* 弹出添加组件 */
+.tanchuan .zujian{
+    width:400px;
+    height:300px;
+    border-radius:5px;
+    position: absolute;
+    top:0;
+    left:50%;
+    margin-left:-200px;
+    z-index:9999;
+    background-color:white;
+}
+.tanchuan .zujian .add{
+    padding:20px 10px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content:space-between;
+}
+.center{
+    padding-left:10px;
+    padding-right:10px;
+}
+.center ul li{
+    padding:10px 10px;
+    padding-left:30px;
+    list-style:none;
+    margin-top:8px;
+    border:1px solid rgba(0,0,0,0.2);
+    background-color:white;
+    float: left;
+    margin-left:0;
+    margin-right:50px;
+}
+.center ul li span{
+    display: inline-block;
+}
+.center ul li span:nth-child(2){
+    vertical-align: middle;
+}
+.center ul li.list1 span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -6px -10px;
+}
+.center ul li.list1:hover span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -6px -53px;
+}
+.center ul li.list2 span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -49px -10px;
+}
+.center ul li.list2:hover span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -49px -53px;
+}
+.center ul li.list3 span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -95px -10px;
+}
+.center ul li.list3:hover span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -95px -53px;
+}
+.center ul li.list4 span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -138px -10px;
+}
+.center ul li.list4:hover span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -138px -53px;
+}
+.center ul li.list5 span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 23px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -222px -11px;
+}
+.center ul li.list5:hover span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 23px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -222px -52px;
+}
+.center ul li.list6 span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -185px -10px;
+}
+.center ul li.list6:hover span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -185px -53px;
+}
+.zujian .tiqu{
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:10px;
+    padding:20px 20px;
+    border-radius:2px;
+    text-align:center;
+    background-color:white;
+    border:1px solid rgba(0,0,0,0.2);
+}
+.zujian .tiqu span.icon{
+    display: inline-block;
+    /* width: 84px; */
+    height: 47px;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat -270px -71px;
+}
+.zujian .tiqu:hover span.icon{
+    display: inline-block;
+    /* width: 84px; */
+    height: 47px;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat -270px -11px;
+
+}
+/* 弹出添加组件 */
+
+
+
+
+
+
+
 .main{
     width:100%;
     display:flex;
@@ -209,7 +363,6 @@ body{
 .main-right .qiehuan li.lis1 .section{
     width:1700px;
     height:100%;
-    overflow:auto;
     position: relative;
     background-color:green;
 }
@@ -240,7 +393,6 @@ body{
 }
 .main-right .qiehuan li.lis2  .box2{
     padding:25px 10px;
-    padding-bottom:0px;
     display:flex;
     display:-webkit-flex;
     justify-content:space-between;
@@ -276,8 +428,269 @@ body{
     background: url(https://img.zohostatic.com.cn/crm/images/svgicons_43e8a_.svg) no-repeat -230px -140px;
 }
 .main-right .qiehuan li.lis2  .box2_r{
-    overflow-y:scroll;
+    width:100%;
+    height:500px;
 }
 .main-right .qiehuan li.lis2  .box2_r .r_t{
-    height:100%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content:space-between;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t div.t_o{ 
+    width:410px;
+    border-radius:5px;
+    background-color:white;
+    border:1px solid rgba(0,0,0,0.3);
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t .t_o .o_top{
+    padding:10px 10px;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t .t_o .o_top span.icon{
+    background: url(https://img.zohostatic.com.cn/crm/images/circle2_1526a_.svg) no-repeat -18px 0;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    z-index: 2;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t .t_o .o_cen{
+    padding:10px 10px;
+    line-height:30px;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t .t_o .o_cen span:nth-child(1){
+    font-size:40px;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t .t_o .o_cen span:nth-child(2){
+   margin-left:10px;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t .t_o .o_cen span:nth-child(3){
+    color:green;
+    font-weight:bold;
+ }
+ .main-right .qiehuan li.lis2  .box2_r .r_t .t_o .o_fot {
+    padding:10px 10px;
+    color:rgba(0,0,0,0.5)
+ }
+ .main-right .qiehuan li.lis2  .box2_r .r_t div.t_h{ 
+    width:410px;
+    border-radius:5px;
+    background-color:white;
+    border:1px solid rgba(0,0,0,0.3);
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t div.t_h .h_y{
+    padding:10px 10px;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t div.t_h span.icon{
+    background: url(https://img.zohostatic.com.cn/crm/images/circle2_1526a_.svg) no-repeat -18px 0;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    z-index: 2;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t div.t_h p.no{
+    text-align:center;
+    margin-top:20px;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t div.t_g{ 
+    width:410px;
+    border-radius:5px;
+    background-color:white;
+    border:1px solid rgba(0,0,0,0.3);
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t div.t_g .g_g{
+    padding:10px 10px;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t div.t_g .g_g span.icon{
+    background: url(https://img.zohostatic.com.cn/crm/images/circle2_1526a_.svg) no-repeat -18px 0;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    z-index: 2;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t div.t_g p.ten{
+    margin-top:15px;
+    font-size:30px;
+    text-align:center;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t div.t_f{ 
+    width:410px;
+    border-radius:5px;
+    background-color:white;
+    margin-right:20px;
+    border:1px solid rgba(0,0,0,0.3);
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t div.t_f .f_top{
+    padding:10px 10px;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t div.t_f .f_top span.icon{
+    background: url(https://img.zohostatic.com.cn/crm/images/circle2_1526a_.svg) no-repeat -18px 0;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    z-index: 2;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t div.t_f .f_cen{
+    padding:10px 10px;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t div.t_f .f_cen span:nth-child(1){
+    color:green;
+    font-size:30px;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t div.t_f .f_cen span:nth-child(2){
+    margin-left:10px;
+}
+.main-right .qiehuan li.lis2  .box2_r .r_t div.t_f .f_fot{
+    padding:10px 10px;
+    color:rgba(0,0,0,0.5);
+}
+
+/* lis3 线索分析 */
+.main-right .qiehuan li.lis3  .box3{
+    padding:25px 10px;
+    display:flex;
+    display:-webkit-flex;
+    justify-content:space-between;
+}
+.main-right .qiehuan li.lis3  .box3 .deus span.xz{
+    background: url(https://img.zohostatic.com.cn/crm/images/circle2_1526a_.svg) no-repeat -18px 0;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+.main-right .qiehuan li.lis3  .box3 .deus a.asd{
+
+    padding:8px 20px;
+    background-color:rgb(62, 171, 221);
+    text-decoration:none;
+    color:white;
+    margin-right:10px;
+}
+.main-right .qiehuan li.lis3  .box3 .deus a.dian{
+    padding:5px 15px;
+    background-color:white;
+    text-decoration:none;
+    color:black;
+    margin-right:10px;
+}
+.main-right .qiehuan li.lis3  .box3 .deus span.wh{
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background: url(https://img.zohostatic.com.cn/crm/images/svgicons_43e8a_.svg) no-repeat -230px -140px;
+}
+
+/* lis4 交易透视 */
+.main-right .qiehuan li.lis4  .box4{
+    padding:25px 10px;
+    display:flex;
+    display:-webkit-flex;
+    justify-content:space-between;
+}
+.main-right .qiehuan li.lis4  .box4 .deus span.xz{
+    background: url(https://img.zohostatic.com.cn/crm/images/circle2_1526a_.svg) no-repeat -18px 0;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+.main-right .qiehuan li.lis4  .box4 .deus a.asd{
+
+    padding:8px 20px;
+    background-color:rgb(62, 171, 221);
+    text-decoration:none;
+    color:white;
+    margin-right:10px;
+}
+.main-right .qiehuan li.lis4  .box4 .deus a.dian{
+    padding:5px 15px;
+    background-color:white;
+    text-decoration:none;
+    color:black;
+    margin-right:10px;
+}
+.main-right .qiehuan li.lis4  .box4 .deus span.wh{
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background: url(https://img.zohostatic.com.cn/crm/images/svgicons_43e8a_.svg) no-repeat -230px -140px;
+}
+
+/* lis5 任务通话及活动统计 */
+.main-right .qiehuan li.lis5  .box5{
+    padding:25px 10px;
+    display:flex;
+    display:-webkit-flex;
+    justify-content:space-between;
+}
+.main-right .qiehuan li.lis5  .box5 .deus span.xz{
+    background: url(https://img.zohostatic.com.cn/crm/images/circle2_1526a_.svg) no-repeat -18px 0;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+.main-right .qiehuan li.lis5  .box5 .deus a.asd{
+
+    padding:8px 20px;
+    background-color:rgb(62, 171, 221);
+    text-decoration:none;
+    color:white;
+    margin-right:10px;
+}
+.main-right .qiehuan li.lis5  .box5 .deus a.dian{
+    padding:5px 15px;
+    background-color:white;
+    text-decoration:none;
+    color:black;
+    margin-right:10px;
+}
+.main-right .qiehuan li.lis5  .box5 .deus span.wh{
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background: url(https://img.zohostatic.com.cn/crm/images/svgicons_43e8a_.svg) no-repeat -230px -140px;
+}
+
+/* lis6 销售指标 */
+.main-right .qiehuan li.lis6  .box6{
+    padding:25px 10px;
+    display:flex;
+    display:-webkit-flex;
+    justify-content:space-between;
+}
+.main-right .qiehuan li.lis6  .box6 .deus span.xz{
+    background: url(https://img.zohostatic.com.cn/crm/images/circle2_1526a_.svg) no-repeat -18px 0;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+.main-right .qiehuan li.lis6  .box6 .deus a.asd{
+
+    padding:8px 20px;
+    background-color:rgb(62, 171, 221);
+    text-decoration:none;
+    color:white;
+    margin-right:10px;
+}
+.main-right .qiehuan li.lis6  .box6 .deus a.dian{
+    padding:5px 15px;
+    background-color:white;
+    text-decoration:none;
+    color:black;
+    margin-right:10px;
+}
+.main-right .qiehuan li.lis6  .box6 .deus span.wh{
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background: url(https://img.zohostatic.com.cn/crm/images/svgicons_43e8a_.svg) no-repeat -230px -140px;
 }
