@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#f4f4f4 
+}
+.main{
+    width:100%;
+    margin:0 auto;
+    display:flex;
+    display:-webkit-flex;
+    justify-content:space-between;
+}
+.main-left{
+    width:220px;
+    height:500px;
+    background-color:#f4f4f4;
+}
+.main-left .top{
+    padding:20px;
+    padding-bottom:5px;
+    padding-top:20px;
+
+}
+.main-left .center{
+    padding-left:10px;
+    padding-right:10px;
+}
+.main-left .center ul li{
+    padding:10px 10px;
+    padding-left:30px;
+    list-style:none;
+    margin-top:8px;
+    margin-left:10px;
+    border:1px solid rgba(0,0,0,0.2);
+    background-color:white;
+}
+.main-left .center ul li span{
+    display: inline-block;
+}
+.main-left .center ul li span:nth-child(2){
+    vertical-align: middle;
+}
+.main-left .center ul li.list1 span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -6px -10px;
+}
+.main-left .center ul li.list1:hover span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -6px -53px;
+}
+.main-left .center ul li.list2 span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -49px -10px;
+}
+.main-left .center ul li.list2:hover span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -49px -53px;
+}
+.main-left .center ul li.list3 span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -95px -10px;
+}
+.main-left .center ul li.list3:hover span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -95px -53px;
+}
+.main-left .center ul li.list4 span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -138px -10px;
+}
+.main-left .center ul li.list4:hover span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -138px -53px;
+}
+.main-left .center ul li.list5 span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 23px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -222px -11px;
+}
+.main-left .center ul li.list5:hover span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 23px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -222px -52px;
+}
+.main-left .center ul li.list6 span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -185px -10px;
+}
+.main-left .center ul li.list6:hover span.icon{
+    display:inline-block;
+    width: 30px;
+    height: 21px;
+    vertical-align: middle;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -185px -53px;
+}
+.main-left .tiqu{
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:10px;
+    padding:20px 20px;
+    border-radius:2px;
+    text-align:center;
+    background-color:white;
+    border:1px solid rgba(0,0,0,0.2);
+}
+.main-left .tiqu span.icon{
+    display: inline-block;
+    width: 84px;
+    height: 47px;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat -270px -71px;
+}
+.main-left .tiqu:hover span.icon{
+    display: inline-block;
+    width: 84px;
+    height: 47px;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat -270px -11px;
+}
+.main-right{
+    /* width:1700px;    */
+    width:100%;
+}
+.main-right .section{
+    display: flex;
+    display:-webkit-flex;
+    justify-content:space-between;
+    padding:10px 10px;
+    padding-top:10px;
+}
+.main-right .section .l_two{
+    position: relative;
+}
+.main-right .section .l_two input{
+    width:160px;
+    font-size:16px;
+    outline:none;
+    border-width:0px 0px 1px;
+    transition: all 0.2s ease 0s;
+    background-color:#f4f4f4;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    padding: 4px 30px 4px 0px;
+}
+.main-right .section .l_two p.text{
+    color:red;
+    position: absolute;
+
+}
+.main-right .section .wenhao span.icon{
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background: url(https://img.zohostatic.com.cn/crm/images/svgicons_43e8a_.svg) no-repeat  -230px -140px;
+}
+.main-right .section .wenhao a{
+    display: inline-block;
+    text-decoration:none;
+    margin-top:5px;
+    padding:5px 15px;
+    margin-right:10px;
+    border:1px solid rgba(0,0,0,0.2);
+}
+.main-right .section .wenhao a.a1{
+    color:black;
+}
+.main-right .section .wenhao a.a2{
+    color:white;
+    background-color:rgb(38, 156, 203);
+}
+.main-right .fankuai{
+     height:2030px;
+     position: relative;
+    background-size: 8.33% 106.566px;
+    background-color: #EBEBEB;
+    /* background-size: 8.33% 80px; */
+    background-image: linear-gradient(to right,#f4f4f4 8.33%,transparent 0),linear-gradient(to top,#f4f4f4 10px,transparent 0);
+    background-repeat: repeat;
+}
+.main-right .fankuai .widget{
+    position: absolute;
+    left: 40px;
+    top: 45px;
+    background: #dedede;
+    opacity: .7;
+    z-index: 1;
+    border-radius: 4px;
+    padding: 45px 60px;
+    text-align:center;
+}
+.main-right .fankuai .widget span.icon{
+    display: inline-block;
+    width: 62px;
+    height: 67px;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -3px -91px;
+}
+.main-right .fankuai .widget:before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: -33px;
+    top: 70px;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat -84px -90px;
+    width: 33px;
+    height: 70px;
+}
+.chart{
+    position: relative;
+    width:100%;
+}
+.chart li{
+    display:none;    
+    position: absolute;
+    top:0;
+    left:50%;
+    margin-left:-150px;
+    z-index:99999;
+    background-color: white;
+    list-style: none;
+}
+.chart li .add{
+    padding:15px 20px;
+    display: flex;
+    display:-webkit-flex;
+    justify-content:space-between;
+}
+.chart li.add span{
+    display: inline-block;
+}
+.chart .box1{
+    width:400px;
+    height:200px;
+    display:none;
+}
+.chart .box1 .lia{
+    padding:0px 20px;
+    display: flex;
+    display:-webkit-flex;
+    justify-content:space-between;  
+}
+.chart .box1 .lia div{
+    width:160px;
+    height:120px;
+    padding-top:10px;
+    border:1px solid rgba(0,0,0,0.3);
+    background-color:white;
+    text-align:center;
+    position: relative;
+}
+.chart .box1 .lia div span.sp1{
+    display: inline-block;
+    width: 28px;
+    height: 36px;
+    opacity: .5;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat -202px -91px;
+}
+.chart .box1 .lia div span.sp2{
+    display: inline-block;
+    width: 26px;
+    height: 34px;
+    opacity: .5;
+    background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat -161px -90px;
+}
+.chart .box2{
+    width:1050px;
+    margin-left:-500px;
+    padding-bottom:20px;
+}
+.chart .box2 .wu{
+    /* height:200px; */
+    margin-left:20px;
+    margin-right:20px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color:rgb(238,238,238);
+}
+.chart .box2 .wu .wuli{
+    display:felx;
+    display:-webkit-flex;
+    justify-content:space-between;
+}
+.chart .box2 .wu .wuli div{
+    /* width:150px; */
+    background-color: #fff;
+}
+.chart .box2 .wu .wuli div.benyue{
+    width:300px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.chart .box2 .wu .wuli div.benyue .doller{
+    border:1px solid rgba(0,0,0,0.1);
+    padding:20px 20px;
+}
+.chart .box2 .wu .wuli div.benyue .doller p{
+    margin-top:0;
+    margin-bottom:10px;
+}
+.chart .box2 .wu .wuli div.benyue .doller p:nth-child(2) span:nth-child(1){
+    font-size:40px;
+}
+.chart .box2 .wu .wuli div.benyue .doller{
+    border:2px solid white;
+}
+.chart .box2 .wu .wuli div.benyue .doller:hover{
+    border:2px solid skyblue;
+}
+.chart .box2 .wu .wuli div.benyue  p.biaozhun{
+    text-align:center;
+    background-color:rgb(238,238,238);
+}
+.chart .box2 .wu .wuli2{
+    display: flex;
+    display: -webkit-flex;
+    justify-content:flex-start;
+}
+.chart .box2 .wu .wuli2 div.remen{
+    /* width:290px; */
+
+    margin-left:20px;
+    margin-right:20px;
+}
+.chart .box2 .wu .wuli2 div.remen .yi{
+    background-color:white;
+    border:1px solid rgba(0,0,0,0.1);
+    padding:20px 32px;
+}
+.chart .box2 .wu .wuli2 div.remen .yi table{
+    table-layout:fixed;
+}
+.chart .box2 .wu .wuli2 div.remen .yi table tr td{
+    line-height:30px;
+    border-bottom:1px solid rgb(0,0,0,0.3);
+}
+.chart .box2 .wu .wuli2 div.remen .yi table tr td:nth-child(2){
+    text-align:right;
+    width:50px;
+    /* height:30px; */
+}
+.chart .box2 .wu .wuli2 div.remen .yi table tr td:nth-child(3){
+    width:100px;
+}
+.chart .box2 .wu .wuli2 div.remen .yi table tr td:nth-child(3) p.baione{
+    text-align:center;
+    width:60px;
+    float:right;
+    background-color: rgb(14, 196, 14);
+    color:white;
+}
+.chart .box2 .wu .wuli2 div.remen .yi table tr td:nth-child(3) p.baitwo{
+    text-align:center;
+    width:60px;
+    float:right;
+    background-color: rgb(201, 76, 76);
+    color:white;
+}
+.chart .box2 .wu .wuli2 div.remen .yi p.qunian{
+    font-size:14px;
+    color:rgba(0,0,0,0.5);
+}
+.chart .box2 .wu .wuli2 div.remen .yi{
+    border:2px solid white;
+}
+.chart .box2 .wu .wuli2 div.remen .yi:hover{
+    border:2px solid skyblue;
+}
+.chart .box2 .wu .wuli2 div.remen  p.jifeng{
+    text-align:center;
+}
+.chart .box2 .wu .wuli2 .suoyouzhe{
+    margin-left:20px;
+    margin-right:20px;
+}
+.chart .box2 .wu .wuli2 .suoyouzhe div.num{
+    padding:20px 32px;
+    background-color:white;
+}
+.chart .box2 .wu .wuli2 .suoyouzhe div.num table{
+    table-layout:fixed;
+}
+.chart .box2 .wu .wuli2 .suoyouzhe div.num table tr{
+     line-height:28px;
+}
+.chart .box2 .wu .wuli2 .suoyouzhe div.num table tr td{
+     border-bottom:1px solid black;
+
+}
+.chart .box2 .wu .wuli2 .suoyouzhe div.num table tr td:nth-child(2){
+    width:100px;
+    text-align:right;
+   
+}
+.chart .box2 .wu .wuli2 .suoyouzhe p.paiming{
+    text-align:center;
+}
+.chart .box2 .wu .wuli2 div.suoyouzhe div.num{
+    border:2px solid white;
+}
+.chart .box2 .wu .wuli2 div.suoyouzhe div.num:hover{
+    border:2px solid skyblue;
+}
