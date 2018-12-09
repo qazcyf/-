@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="cyf-css/normalize.css">
     <link rel="stylesheet" href="cyf-css/index.css">
     <link rel="stylesheet" href="cyf-css/reset.css">
+    <style>
+        #iframe {
+            width: 100%;
+            margin-top: 50px;
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -130,9 +137,7 @@
                     <p class="fanfkuai"></p>
                     <h2 class="yeqianzu">页签组</h2>
                     <div class="nav_left_box">
-                        <p class="yin_pss">
-                            对勾
-                        </p>
+
                     </div>
                     <p class="yin_ps">
                         <span></span> 所有标签
@@ -263,7 +268,7 @@
                     </div>
                 </li>
                 <li>
-                    <p></p>
+                    <p id="test1"></p>
                 </li>
                 <li>
                     <p></p>
@@ -332,17 +337,92 @@
                 <span></span>
                 <span></span>
                 <span></span>
-                <div class="name_div_pai_yin"></div>
+                <div class="name_div_pai_yin">
+                    <span class="fangkaui"></span>
+                    <p>
+                        <a href="javascript:void(0)">添加组件</a>
+                    </p>
+                    <p>
+                        <a href="javascript:void(0)">重新排列</a>
+                    </p>
+                    <p>
+                        <a href="javascript:void(0)">全屏查看</a>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
     <!-- 具体内容 -->
-    <iframe src="components/cyf.html" frameborder="0" id="iframe"></iframe>
+    <iframe src="components/cyf.html" frameborder="0" id="iframe" class="warp"></iframe>
     <!-- 底部聊天 -->
-    <div class="bottom"></div>
+    <div class="bottom">
+        <div class="shiko">
+            <ul class="shiko_ul">
+                <li class="shiko_ul_liao">
+                    聊天
+                </li>
+                <li class="shiko_ul_ren">
+                    联系人
+                </li>
+                <div class="shiko_ul_yin">
+                    <div class="shiko_ul_yin_top">
+                        <div>
+                            <span>对对对</span>
+                            <span class="shiko_ul_yin_guan"></span>
+                        </div>
+                        <div>
+                            <span>Available</span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="shiko_ul_yin_center">
+                        <input type="text">
+                    </div>
+                    <div class="shiko_ul_yin_botton shiko_ul_yin_bottons">
+                        <img src="cyf-image/tu_1.png" alt="" class="tu_1">
+                        <img src="cyf-image/tu_2.png" alt="" class="tu_2">
+                        <p class="text_1">您与人们和团队的会话将会显示在这里。您可以点击联系人或者频道来参加到一个会话中。</p>
+                        <p class="text_2">您的聊天联系人列表将会显示在这里。在搜索框内输入您好友的邮箱地址来邀请他们。</p>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <div class="shiko_liaotian">这是您的智能聊天( Ctrl + Space )</div>
+        <div class="shiko_diaji">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </div>
+    </div>
+    <!-- 聊天框 -->
+    <div class="shiko_liaotian_yin">
+        <p class="shiko_liaotian_yin_cuo"></p>
+        <div class="shiko_liaotian_yin_suo">
+            <input type="text" placeholder="通过简单的输入@名称及信息的方式开始一个1对1的聊天。例如：@Brian 您好">
+        </div>
+        <ul class="shiko_liaotian_yin_uls">
+            <li>
+                <p>聊天</p>
+                <p></p>
+                <p>没有更多的聊天</p>
+            </li>
+            <li>
+                <p>聊天</p>
+                <p></p>
+                <p>您的聊天联系人列表将会显示在这里。在搜索框内输入您好友的邮箱地址来邀请他们。</p>
+            </li>
+        </ul>
+    </div>
 </body>
 
 </html>
 <script type="text/javascript" src="http://g.alicdn.com/sj/lib/jquery.min.js"></script>
+<script src="layDate-v5.0.9/laydate/laydate.js"></script>
 <script type="text/javascript" src="cyf-js/index.js"></script>
 <script type="text/javascript" src="cyf-js/nav.js"></script>
+<script>
+    laydate.render({
+        elem: '#test1' //指定元素
+    });
+</script>

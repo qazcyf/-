@@ -171,7 +171,6 @@ function js1() {
             }, 10)
         }
         $(".zhedang").css("display", "block");
-
     }
     // 封装管理页面消失封装
     function guanxiao() {
