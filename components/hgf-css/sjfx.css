@@ -23,11 +23,11 @@ body{
     display: -webkit-flex;
     justify-content:space-between;
 }
-.center{
+.tanchuan .zujian .center{
     padding-left:10px;
     padding-right:10px;
 }
-.center ul li{
+.tanchuan .zujian .center ul li{
     padding:10px 10px;
     padding-left:30px;
     list-style:none;
@@ -38,113 +38,113 @@ body{
     margin-left:0;
     margin-right:50px;
 }
-.center ul li span{
+.tanchuan .zujian .center ul li span{
     display: inline-block;
 }
-.center ul li span:nth-child(2){
+.tanchuan .zujian .center ul li span:nth-child(2){
     vertical-align: middle;
 }
-.center ul li.list1 span.icon{
+.tanchuan .zujian .center ul li.list1 span.icon{
     display:inline-block;
     width: 30px;
     height: 21px;
     vertical-align: middle;
     background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -6px -10px;
 }
-.center ul li.list1:hover span.icon{
+.tanchuan .zujian .center ul li.list1:hover span.icon{
     display:inline-block;
     width: 30px;
     height: 21px;
     vertical-align: middle;
     background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -6px -53px;
 }
-.center ul li.list2 span.icon{
+.tanchuan .zujian .center ul li.list2 span.icon{
     display:inline-block;
     width: 30px;
     height: 21px;
     vertical-align: middle;
     background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -49px -10px;
 }
-.center ul li.list2:hover span.icon{
+.tanchuan .zujian .center ul li.list2:hover span.icon{
     display:inline-block;
     width: 30px;
     height: 21px;
     vertical-align: middle;
     background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -49px -53px;
 }
-.center ul li.list3 span.icon{
+.tanchuan .zujian .center ul li.list3 span.icon{
     display:inline-block;
     width: 30px;
     height: 21px;
     vertical-align: middle;
     background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -95px -10px;
 }
-.center ul li.list3:hover span.icon{
+.tanchuan .zujian .center ul li.list3:hover span.icon{
     display:inline-block;
     width: 30px;
     height: 21px;
     vertical-align: middle;
     background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -95px -53px;
 }
-.center ul li.list4 span.icon{
+.tanchuan .zujian .center ul li.list4 span.icon{
     display:inline-block;
     width: 30px;
     height: 21px;
     vertical-align: middle;
     background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -138px -10px;
 }
-.center ul li.list4:hover span.icon{
+.tanchuan .zujian .center ul li.list4:hover span.icon{
     display:inline-block;
     width: 30px;
     height: 21px;
     vertical-align: middle;
     background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -138px -53px;
 }
-.center ul li.list5 span.icon{
+.tanchuan .zujian .center ul li.list5 span.icon{
     display:inline-block;
     width: 30px;
     height: 23px;
     vertical-align: middle;
     background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -222px -11px;
 }
-.center ul li.list5:hover span.icon{
+.tanchuan .zujian .center ul li.list5:hover span.icon{
     display:inline-block;
     width: 30px;
     height: 23px;
     vertical-align: middle;
     background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -222px -52px;
 }
-.center ul li.list6 span.icon{
+.tanchuan .zujian .center ul li.list6 span.icon{
     display:inline-block;
     width: 30px;
     height: 21px;
     vertical-align: middle;
     background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -185px -10px;
 }
-.center ul li.list6:hover span.icon{
+.tanchuan .zujian .center ul li.list6:hover span.icon{
     display:inline-block;
     width: 30px;
     height: 21px;
     vertical-align: middle;
     background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat  -185px -53px;
 }
-.zujian .tiqu{
-    margin-top:10px;
+.tanchuan .zujian .tiqu{
+    /* margin-top:10px;
     margin-left:20px;
     margin-right:10px;
-    padding:20px 20px;
+    padding:20px 20px; */
     border-radius:2px;
     text-align:center;
     background-color:white;
     border:1px solid rgba(0,0,0,0.2);
 }
-.zujian .tiqu span.icon{
+.tanchuan .zujian .zujian .tiqu span.icon{
     display: inline-block;
     /* width: 84px; */
     height: 47px;
     background: url(https://img.zohostatic.com.cn/crm/images/sprite_analytics_9b521_.svg) no-repeat -270px -71px;
 }
-.zujian .tiqu:hover span.icon{
+.tanchuan .zujian .tiqu:hover span.icon{
     display: inline-block;
     /* width: 84px; */
     height: 47px;
