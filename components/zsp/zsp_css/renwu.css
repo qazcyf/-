@@ -1,0 +1,85 @@
+body {
+    font-family: "ProximaNovaRegular",sans-serif;
+    color: #111;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+}
+a,input{
+    cursor: pointer;
+}
+.input_cheng{
+    border-radius: 2px;
+    font-size: .929rem;
+    padding: .35rem 1.071rem;
+    margin-right: 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-font-smoothing: auto;
+    font-family: "ProximaNovaRegular",sans-serif;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    appearance: none!important;
+}
+.box_top{
+    width: 100%;
+    height: 50px;
+    line-height: 2.429rem!important;
+    background-color: black;
+    line-height: 50px;
+    z-index: 99;
+}
+.box_renwu{
+    width: 100%;
+    height: 100%;
+    /* background-color: #111; */
+    /* border:1px solid red; */
+}
+.box_renwu .cjdbu{
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    box-shadow: rgb(229, 229, 229) 0px 1px 3px;
+    /* display: none; */
+    padding: 20px 0 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eee;
+}
+.box_renwu .cjdbu .renwu_cj{
+    vertical-align: middle;
+    font-size: 1.714rem;
+    color: #000;
+    font-family: "ProximaNovaLight",sans-serif;
+    padding-left: 30px;
+}
+.box_renwu .cjdbu .rw_an{
+    position: absolute;
+    right: 500px;
+    top: 20px;
+}
+.box_renwu .cjdbu .rw_an .rw_bc{
+    color: white!important;
+    border-radius: 2px!important;
+    background-color: #42a2eb!important;
+    border: solid 1px #42a2eb!important;
+    box-shadow: none!important;
+}
+.box_renwu .cjdbu .rw_an .rw_bccj{
+    background-color: #fff!important;
+    color: #3c3c3c;
+    border: solid 1px #c4c4c4;
+}
+.box_renwu .cjdbu .rw_an .rw_qx{
+    background-color: #fff!important;
+    color: #3c3c3c;
+    border: solid 1px #c4c4c4;
+}
+.rw_xinxi{
+
+}
