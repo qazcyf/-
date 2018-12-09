@@ -207,8 +207,43 @@
             height: 900px;
             background-color:#f6f6f6;
             overflow:hidden;
-
-
+        }
+        form{
+            font-family: "ProximaNovaRegular",sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 1rem;
+        }
+        .youjian2{
+            min-height: 100%;
+        }
+        .table{
+            border: 1px solid #eaeaea;
+            border-top: 0;
+            table-layout: fixed;
+        }
+        .E{
+            background: url(../image/svgicons_43e8a_.svg) no-repeat -283px -447px!important;
+            width: 12px;
+            height: 12px;
+            opacity: 1!important;
+            margin-top: 2px!important;
+            display: block;
+            margin-left: 10px;
+        }
+        .pro{
+            color: #2a80b9;
+            padding-left: 5px;
+        }
+        .fl{
+            background: transparent url(../image/svgicons_43e8a_.svg) no-repeat -197px -367px;
+            height: 14px;
+            width: 14px;
+            cursor: pointer;
+            margin: 5px 6px 0 0;
+            background-position: -181px -367px;
+            display: block;
+            float: left;
         }
     </style>
 </head>
@@ -237,20 +272,43 @@
             <!-- <div class="box2_1"> -->
                 <table class="neirongtop" width="100%" cellpadding="0" cellspacing="0">
                     <thead>
-                        <tr>
+                        <!-- <tr>
                             <th class="p1"></th>
                             <th class="p2" width="34%"><div id="baogaomc" style="cursor:pointer" onclick="crmReports.sortReports('REPORTNAME',this,false)">报表名称<span></span></div></th>
                             <th class="p2" width="50%"><div id="miaoshu">描述</div></th>
                             <th class="p2" width="16%">
                                 <div id="miaoshu">上一次运行日期</div>
                             </th>    
-                        </tr>
+                        </tr> -->
                     </thead>
                 </table>
                 <div id="youjian">
                     <div id="youjian1">
                         <form name="ShowReportsForm" method="post" onsubmit="return false;">
+                            <div class="youjian2">
+                                <table>
+                                    <tbody>
+                                    <tr style="height:26px;">
+                                        <td align="middle" style="width:14px;">
+                                            <div class="E"></div> 
+                                        </td>
+                                        <td class="pro" width="34%">
+                                          
+                                            <div title="邮件及通话分析报表">邮件及通话分析报表
+                                                  <span class="fl"></span>
+                                            </div>
+                                        </td>
+                                        <td width="50%">
+                                            <div>发送的及回复的邮件、由销售代表参与的及错过的通话的数量</div>
+                                        </td>
+                                        <td width="16%">
+                                            <div>-</div>
+                                        </td>
+                                    </tr>
 
+                                    </tbody>
+                                </table>
+                            </div>
 
                         </form>
 
@@ -265,3 +323,32 @@
   
 </body>
 </html>
+<script type="text/javascript" src="http://g.alicdn.com/sj/lib/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/artTemplate.js/3.0.1/template.js"></script>
+<!-- <script>
+{{each }}
+    <tr>
+        <th class="p1"></th>
+        <th class="p2" width="34%"><div id="baogaomc" style="cursor:pointer" onclick="crmReports.sortReports('REPORTNAME',this,false)">报表名称<span></span></div></th>
+        <th class="p2" width="50%"><div id="miaoshu">描述</div></th>
+        <th class="p2" width="16%">
+            <div id="miaoshu">上一次运行日期</div>
+        </th>    
+    </tr> 
+{{/each}}
+</script> -->
+<script>
+$(function(){
+    $.ajax({
+        url:"components/api.php",
+        type:"post",
+        dataType:"json",
+        data:{
+            "action":"tqj"
+        },
+        success:function(data){
+            console.log(data);
+        }
+    })
+})
+</script>

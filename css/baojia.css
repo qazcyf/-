@@ -94,9 +94,26 @@
     float: left;
 
 }  
-#sousou1{
+#sousuo1{
     border-bottom: 1px solid #f0f0f0;
-    position: relative;
     width: 100%;
     padding: 0;
+    position: relative;
+}
+#sousuo1 .baojia{
+    top: 1px;
+    padding: 19px 6px 6px 0!important;
+    color: #666;
+    display: inline-block;
+    width: 40%;
+    padding-right: 15px;
+    font-family: ProximaNovaRegular,sans-serif!important;
+    line-height: 24px;
+}
+#sousuo1 .baojia1{
+    position: absolute;
+    top:1px;
+    left:260px;
+    width: 60%;
+    padding: 19px 0 5px!important;
 }
